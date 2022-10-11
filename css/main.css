@@ -1348,7 +1348,7 @@ header .header--mobile-menu-trigger > span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 900px;
+  min-width: 900px;
   height: 900px;
 }
 
@@ -1440,18 +1440,22 @@ header .header--mobile-menu-trigger > span {
 }
 
 #section-6 {
-  height: 200vh;
+  height: 1000vh;
   overflow-y: unset;
   padding: 0;
+  border-bottom: 1px solid red;
 }
 
-#blue-circle {
-  background: #050f20;
-  border: 0 solid #050f20;
-  border-radius: 50%;
-  width: 0%;
+#section-6 .title {
   position: absolute;
-  mix-blend-mode: difference;
+}
+
+#section-6 h3.title {
+  word-break: unset;
+}
+
+#section-6 p.title {
+  opacity: 0;
 }
 
 #circle-wrap {
@@ -1464,19 +1468,37 @@ header .header--mobile-menu-trigger > span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  position: relative;
-}
-
-.circle-wrap-wrap {
+  position: absolute;
   width: 100%;
   height: 100%;
+}
+
+#circle-position-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  width: 100%;
+}
+
+#blue-circle {
+  background: #050f20;
+  border: 0 solid #050f20;
+  border-radius: 50%;
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  -webkit-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+  mix-blend-mode: difference;
 }
 
 #section7-image-container {
@@ -1494,6 +1516,129 @@ header .header--mobile-menu-trigger > span {
 
 #section7-image-container img {
   max-width: 50%;
+}
+
+.mega-features {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.mega-features__container {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mega-features__title {
+  margin-top: 200px;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 90px;
+  text-align: center;
+  opacity: 0;
+}
+
+.mega-features__description {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28.6px;
+  text-align: center;
+  opacity: 0;
+}
+
+.mega-features__simcard-container {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  opacity: 0;
+}
+
+.mega-features__simcard-item {
+  width: 83px;
+  height: 62px;
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mega-features__list {
+  margin-top: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  max-width: 1418px;
+  width: 100%;
+  opacity: 0;
+}
+
+.mega-features__item {
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.mega-features__item:nth-child(1) div {
+  background: url("../img/icons/icon-simcard-white.svg") no-repeat 50%/45px;
+}
+
+.mega-features__item:nth-child(2) div {
+  background: url("../img/icons/icon-touch.svg") no-repeat 50%/37px;
+}
+
+.mega-features__item:nth-child(3) div {
+  background: url("../img/icons/shield-white.svg") no-repeat 50%/38px;
+}
+
+.mega-features__item:nth-child(4) div {
+  background: url("../img/icons/icon-ethernet.svg") no-repeat 50%/46px;
+}
+
+.mega-features__item:nth-child(5) div {
+  background: url("../img/icons/icon-64.svg") no-repeat 50%/44px;
+}
+
+.mega-features__icon {
+  width: 95px;
+  height: 95px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.mega-features__label {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.mega-features__image {
+  margin-top: 25px;
+  opacity: 0;
 }
 
 * {

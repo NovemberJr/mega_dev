@@ -483,12 +483,12 @@
     </div>
 </section>
 
-<section id="section-6" class="section section_white section_fullscreen section-megapower">
+<section id="section-6" class="section section_white section_fullscreen section-megapower animation-section">
     <div class="sticky-box">
         <!--<div class="container text-center">-->
         <div class="section-content">
-            <h3 class="title title_xlg animation-slide-up" id="mega-title">MEGA<span>МОЩЬ</span></h3>
-            <p class="title title_sm" id="mega-desc">в миникорпусе</p>
+            <h3 class="title title_xlg static-element-animation animation-transition animation-fading animation-slide-up" id="mega-title">MEGA<span>МОЩЬ</span></h3>
+            <p class="title title_sm static-element-animation" id="mega-desc">в миникорпусе</p>
         </div>
         <div id="circle-wrap">
             <div id="circle-position-wrap">
@@ -497,7 +497,7 @@
         </div>
         
         <div class="mega-features">
-            <div class="mega-features__slide">
+            <div class="animation-slide">
                 <div class="mega-features__container">
                     <h3 class="mega-features__title">Флагман линейки — <br> там где нужна гибкость</h3>
                     <p class="mega-features__description">Обеспечивает конфигурацию под любую задачу.</p>
@@ -541,12 +541,30 @@
                 </div>
             </div>
             
-            <div class="mega-features__image-container">
-                <img class="mega-features__image" src="./img/mega-light-1600px_dark.png" class="s5-mega-img" alt="">
+            <div class="mega-features__images">
+                <div class="mega-features__image-container">
+                    <img class="mega-features__image" src="./img/mega-light-1600px_dark.png" class="s5-mega-img" alt="">
+                </div>
+                <div class="mega-features__image-container mega-features__image-container_center">
+                    <img class="mega-features__image mega-features__image-ext1" src="./img/ext1-1600px.png" class="s5-mega-img" alt="">
+                </div>
+                <div class="mega-features__image-container mega-features__image-container_center">
+                    <img class="mega-features__image mega-features__image-ext2" src="./img/ext2-1600px.png" class="s5-mega-img" alt="">
+                </div>
+                <div class="mega-features__image-container mega-features__image-container_center">
+                    <img class="mega-features__image mega-features__image-ext3" src="./img/ext3-1600px.png" class="s5-mega-img" alt="">
+                </div>
+                <div class="mega-features__image-container mega-features__image-container_center" id="ext4-wrap">
+                    <img class="mega-features__image mega-features__image-ext4" src="./img/ext4-1600px.png" class="s5-mega-img" alt="">
+                </div>
             </div>
-            <div class="mega-features__gradient"></div>
 
-            <div class="mega-features__slide">
+            <div class="mega-features__gradient mega-features__gradient_close-up"></div>
+            <div class="mega-features__gradient mega-features__gradient_darken"></div>
+            <!--<div class="mega-features__gradient mega-features__gradient_ext-1"></div>-->
+            <div class="mega-features__image-container"></div>
+
+            <div class="animation-slide">
                 <div class="mega-features__container mega-features__container_bottom">
                     <div class="mega-features__list-2">
                         <div class="mega-features__item">
@@ -594,7 +612,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide mega-features__slide_row">
                 <div class="mega-features__container mega-features__container_row">
                     <div class="mega-abilities mega-abilities-1">
                         <div class="mega-abilities__item">
@@ -643,7 +661,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide mega-features__slide_row">
                 <div class="mega-features__container mega-features__container_row">
                     <div class="mega-abilities mega-abilities-2">
                         <div class="mega-abilities__item">
@@ -691,7 +709,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide mega-features__slide_row">
                 <div class="mega-features__container mega-features__container_row">
                     <div class="mega-abilities mega-abilities-3">
                         <div class="mega-abilities__item">
@@ -745,7 +763,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide">
+            <div class="animation-slide">
                 <div class="mega-features__container">
                     <div class="mega-features__intertitle-container mega-features__intertitle-1">
                         <p class="mega-features__intertitle">
@@ -758,7 +776,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mega-features__slide">
+            <div class="animation-slide">
                 <div class="mega-features__container">
                     <div class="mega-features__intertitle-container mega-features__intertitle-2">
                         <p class="mega-features__intertitle">
@@ -771,7 +789,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mega-features__slide">
+            <div class="animation-slide">
                 <div class="mega-features__container">
                     <div class="mega-features__intertitle-container mega-features__intertitle-3">
                         <p class="mega-features__intertitle">
@@ -785,7 +803,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide">
                 <div class="mega-features__container mega-features__container_row mega-features__container_broad">
                     <div class="mega-extensions mega-extensions-1">
                         <h4 class="mega-extensions__title">Модуль расширения радиоканала 868</h4>
@@ -816,7 +834,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide">
                 <div class="mega-features__container mega-features__container_row mega-features__container_broad">
                     <div class="mega-extensions mega-extensions-2">
                         <h4 class="mega-extensions__title">Модуль расширения радиоканала 433</h4>
@@ -843,7 +861,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide">
                 <div class="mega-features__container mega-features__container_row mega-features__container_broad">
                     <div class="mega-extensions mega-extensions-3">
                         <h4 class="mega-extensions__title">Модуль расширения WI-FI</h4>
@@ -871,7 +889,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mega-features__slide mega-features__slide_row">
+            <div class="animation-slide">
                 <div class="mega-features__container mega-features__container_row mega-features__container_broad">
                     <div class="mega-extensions mega-extensions-4">
                         <h4 class="mega-extensions__title">Умная энергия. RS-485</h4>
@@ -901,7 +919,7 @@
                 </div>
             </div>
 
-            <div class="mega-features__slide">
+            <div class="animation-slide">
                 <div class="mega-features__container">
                     <div class="mega-features__intertitle-container mega-features__intertitle-4">
                         <p class="mega-features__intertitle">
@@ -917,10 +935,6 @@
     </div>
 </section>
 
-<!--<section id="section-19" class="section section_black section-space">-->
-<!--    -->
-<!--</section>-->
-<!--
 <section id="section-19" class="section section_white section-product-components">
     <div class="container">
         <div class="wrapper">
@@ -995,7 +1009,7 @@
     </div>
 </section>
 
-<section id="section-20" class="section section_white section-product-scheme">
+<section id="section-20" class="section section_white section-product-scheme animation-section">
     <div class="container">
         <div class="text-container">
             <h2 class="product-scheme--title">
@@ -1031,6 +1045,82 @@
     </div>
 </section>
 
+<section id="section-genius">
+    <div class="sticky-box">
+        <div class="mega-case">
+            <div class="animation-slide">
+                <div class="mega-features__container justify-center">
+                    <div class="mega-case__text-1">
+                        <p class="mega-case__text_lg">Гениальное - просто</p>
+                        <p class="mega-case__text_sm">Универсальный, компактный, красивый.</p>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="mega-case__image-container">
+                <img class="mega-case__image" src="./img/mega-case-1900px.png" class="s5-mega-img" alt="">
+            </div>                
+            <div class="mega-case__image-container mega-case__image-container_center">
+                <img class="mega-case__image-2" src="./img/mega-corpus-v1-768px.png" class="s5-mega-img" alt="">
+            </div>
+            <div class="mega-case__gradient mega-case__gradient_close-up"></div>
+            <!--<div class="mega-features__gradient mega-features__gradient_darken"></div>-->
+
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_bottom">
+                    <p class="mega-case__text-2 mega-case__text_md">Отличный размер для&nbsp;подведения проводов питания или проводных шлейфов</p>
+                </div>
+            </div>
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_bottom">
+                    <div class="mega-case__text-3">
+                        <p class="mega-case__text_md">Надежное крепление АКБ к&nbsp;корпусу </p>
+                        <p class="mega-case__text_sm">Выбери АКБ 1.2 Ач или 7 Ач, а корпус останется.</p>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_row mega-features__container_broad">
+                    <div class="mega-extensions mega-case__text-4">
+                        <p class="mega-extensions__text-1">Удобное крепление корпуса к стене</p>
+                        <p class="mega-extensions__text-2">Можно установить без демонтажа платы прибора</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_row mega-features__container_broad">
+                    <div class="mega-extensions mega-case__text-5">
+                        <p class="mega-extensions__text-1">Антенны</p>
+                        <p class="mega-extensions__text-2">Перфорация для установки антенн. Без проблем.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_row mega-features__container_broad">
+                    <div class="mega-extensions mega-case__text-6">
+                        <p class="mega-extensions__text-1">Возможность комбинировать - <span class="text-blue">универсально</span></p>
+                        <p class="mega-extensions__text-2">Вы можете сконфигурировать платы внутри корпуса так, как удобно именно вам. Просто установите их на другие посадочные места, они универсальны.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animation-slide">
+                <div class="mega-features__container mega-features__container_row mega-features__container_broad">
+                    <div class="mega-extensions mega-case__text-7">
+                        <p class="mega-extensions__text-1">Добавьте свой логотип на лицевой панели корпуса</p>
+                        <p class="mega-extensions__text-2">Это бесплатно</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-mega-light">
+    
+</section>
+
+<!--
 <section id="section-21" class="section section_black section_fullscreen section-about-corpus">
     <div class="container">
         <div class="about-corpus--container align-center justify-center">
@@ -2393,6 +2483,5 @@
 
 
 <script defer="defer" src="js/main.js"></script>
-<!--<script defer src="js/animation.js"></script>-->
 </body>
 </html>

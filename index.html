@@ -225,7 +225,7 @@
 
 <section id="section-hello">
     <div class="presentation__sticky">
-        <div class="section-content">
+        <!--<div class="section-content">
             <b class="title title_md text-center text-gradient" id="s1-title1">Новаторство.<br>Независимость.</b>
             <div class="title-item" id="s1-title2">
                 <b class="title title_md text-center text-gradient">Открытие новой эпохи <br>
@@ -235,18 +235,11 @@
                 </div>
             </div>
             <b class="title title_md text-center text-gradient" id="s1-title3">Подлинная эволюция <br> на&nbsp;secure-рынке</b>
-            <!--<div class="title-item">
-                <b class="title title_md text-center text-gradient">Открытие новой эпохи <br>
-                    в охранных системах</b>
-                <div class="text-center mt-15">
-                    <p class="text text_md text-dark-gray">Уникальная разработка Ritm</p>
-                </div>
-            </div>
-            <div class="title-item">
-                <b class="title title_md text-center text-gradient">Подлинная эволюция <br> на&nbsp;secure-рынке</b>
-            </div>-->
+        </div>-->
+        <!--<canvas id="hello-canvas"></canvas>-->
+        <div class="hello-video-cantainer">
+            <video class="hello-video" muted playsinline autoplay preload="auto" src="./img/hello.mp4"></video>
         </div>
-        <canvas id="hello-canvas"></canvas>
     </div>
 </section>
 
@@ -550,7 +543,12 @@
         
         <div class="mega-features__images animation_state_initial animation">
             <div class="mega-features__image-container">
-                <img class="mega-features__image mega-features__image-main" src="./img/mega-light-1600px_dark.png" alt="">
+                <!--<img class="mega-features__image mega-features__image-main" src="./img/mega-light-1600px_dark.png" alt="">-->
+                <div class="mega-features__image mega-features__image-main">
+                    <img src="./img/flagman-1600px.png" alt="">
+                    <div class="mega-features__gradient mega-features__gradient_ext-1-2 animation_state_initial animation"></div>
+                    <div class="mega-features__gradient mega-features__gradient_ext-3-4 animation_state_initial animation"></div>    
+                </div>
             </div>
             <div class="mega-features__image-container mega-features__image-container_center">
                 <img id="mega-features__image-ext-1" class="mega-features__image mega-features__image-ext-1" src="./img/ext1-1600px.png" class="s5-mega-img" alt="">
@@ -568,7 +566,6 @@
 
         <div class="mega-features__gradient mega-features__gradient_close-up animation_state_initial animation"></div>
         <div class="mega-features__gradient mega-features__gradient_darken animation_state_initial animation"></div>
-        <!--<div class="mega-features__gradient mega-features__gradient_ext-1"></div>-->
 
         <div class="presentation__slide">
             <div class="mega-features__main mega-features__main_bottom">
@@ -1118,10 +1115,7 @@
                 </div>
             </div>
             <div></div>
-            <video id="case-video-1" class="case-video" controls muted playsinline preload="auto" src="./img/case.mp4"></video>
-            <video id="case-video-2" class="case-video" controls muted playsinline preload="auto" src="./img/case.mp4"></video>
-            <video id="case-video-3" class="case-video" controls muted playsinline preload="auto" src="./img/case.mp4"></video>
-            <video id="case-video-4" class="case-video" controls muted playsinline preload="auto" src="./img/case.mp4"></video>
+            <video id="case-video" class="case-video" muted playsinline preload="auto" src="./img/case.mp4"></video>
             <div></div>
         </div>
         <!--<div class="product-scheme--img-container">
@@ -1493,11 +1487,14 @@
         </div>
 
         <div class="presentation__slide">
-            <div class="mega-keyboard__text-3 animation_state_initial animation">
-                <p class="text_lg">
-                    Вы получаете сразу готовую охранную систему, остаётся только выбрать тип датчиков - <span class="text_blue">проводные</span> или <span class="text_blue">беспроводные</span>
-                </p>
+            <div class="mega-keyboard__text-wrap">
+                <div class="mega-keyboard__text-3 animation_state_initial animation">
+                    <p class="text_lg">
+                        Вы получаете сразу готовую охранную систему, остаётся только выбрать тип датчиков - <span class="text_blue">проводные</span> или <span class="text_blue">беспроводные</span>
+                    </p>
+                </div> 
             </div>
+            
         </div>
 
         <div id="mega-keyboard__two-columns" class="presentation__slide animation_state_initial animation">
@@ -1509,13 +1506,14 @@
                 </div>
                 <div class="mega-keyboard__column-bottom">
                     <div class="mega-keyboard__column-image-wrap">
-                        <img src="./img/mega-keyboard-inner.png" alt="">
+                        <img src="./img/keyboard-schema-1-1900px.png" alt="">
+                        <!--<img src="./img/mega-keyboard-inner.png" alt="">
                         <p class="mega-keyboard__hint mega-keyboard__hint-1">2 SIM карты</p>
                         <p class="mega-keyboard__hint mega-keyboard__hint-2">Питание от Li-ion батареи до 12 часов</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-3">Подключение 2 исполнительных устройств 12 В 170 мА (открытый коллектор)</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-3">Подключение 2 исполнительных устройств 12 В 170 мА (открытый&nbsp;коллектор)</p>
                         <p class="mega-keyboard__hint mega-keyboard__hint-4">Возможность установки встроенной антенны. (В штатной комплектации — внешняя)</p>
                         <p class="mega-keyboard__hint mega-keyboard__hint-5">Подключение считывателей Touch Memory, RFID, NFC</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-6">8 охранных шлейфов</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-6">8 охранных шлейфов</p>-->
                     </div>
                 </div>
             </div>
@@ -1527,13 +1525,14 @@
                 </div>
                 <div class="mega-keyboard__column-bottom">
                     <div class="mega-keyboard__column-image-wrap">
-                        <img src="./img/mega-keyboard-inner.png" alt="">
-                        <p class="mega-keyboard__hint mega-keyboard__hint-1">2 SIM карты</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-2">Питание от Li-ion батареи до 12 часов</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-3">Подключение 2 исполнительных устройств 12 В 170 мА (открытый коллектор)</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-4">Возможность установки встроенной антенны. (В штатной комплектации — внешняя)</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-5">Подключение считывателей Touch Memory, RFID, NFC</p>
-                        <p class="mega-keyboard__hint mega-keyboard__hint-6">8 охранных шлейфов</p>
+                        <img src="./img/keyboard-schema-2-1900px.png" alt="">
+                        <!--<img src="./img/mega-keyboard-inner.png" alt="">
+                        <p class="mega-keyboard__hint mega-keyboard__hint-7">Управление прибором из&nbsp;мобильного приложения</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-8">Питание от&nbsp;Li-ion батареи до&nbsp;12&nbsp;часов</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-9">Подключение 32 беспроводных датчиков на&nbsp;частоте 433&nbsp;МГц</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-10">Подключение считывателей Touch Memory, RFID, NFC</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-11">Проводной охранный шлейф</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-12">Подключение 2 исполнительных устройств 12&nbsp;В 170&nbsp;мА (открытый коллектор)</p>-->
                     </div>
                 </div>
             </div>
@@ -1634,9 +1633,9 @@
                     </div>
                 </div>
                 <div class="mega-keyboard__buy-images two-columns__right">
-                    <div class="mega-keyboard__buy-image-wrap">
+                    <!--<div class="mega-keyboard__buy-image-wrap">
                         <img class="mega-keyboard__buy-image-inner animation_state_initial animation" src="./img/mega-keyboard-inner.png" alt="">
-                    </div>
+                    </div>-->
                     <div class="mega-keyboard__buy-image-wrap">
                         <img class="mega-keyboard__buy-image-front animation_state_initial animation" src="./img/mega-keyboard-front.png" alt="">
                     </div>

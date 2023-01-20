@@ -10,7 +10,877 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
-<body data-scroller>
+<body>
+
+<div class="specifications-overlay">
+    <div class="specifications-window">
+        <button class="specifications-close popup-close button_black">
+            <svg class="popup-close--icon" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="8.4101" y1="23.2822" x2="23.4225" y2="8.26975" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="7.7315" y1="8.28998" x2="22.7439" y2="23.3024" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </button>
+        <div id="specs-mega" class="specs">
+    <div class="specs__text">
+        <h2 class="specs__title">Связь</h2>
+        <h3 class="specs__subtitle">GSM</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2 SIM-карты</li>
+                <li class="specs__item">2G</li>
+                <li class="specs__item">LTE - опционально</li>
+            </ul>
+        <h3 class="specs__subtitle">Ethernet</h3>
+            <ul class="specs__list">
+                <li class="specs__item">1 × разъем 8P8C (LAN) до&nbsp;100 Мб/с</li>
+                <li class="specs__item">Шифрование данных</li>
+            </ul>
+        <h3 class="specs__subtitle">WiFi</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2,4 ГГц, подключение к&nbsp;сетям Wi‑Fi 802.11 b/g/n, опционально (через&nbsp;плату расширения Wi-Fi)</li>
+            </ul>
+    
+        <h2 class="specs__title">Каналы связи</h2>
+            <h3 class="specs__subtitle">2G, LTE - опционально</h3>
+            <h3 class="specs__subtitle">LAN</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">LAN</li>
+                    <li class="specs__item">LAN Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">GPRS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">GPRS Online</li>
+                    <li class="specs__item">GPRS Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">SMS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">SMS на&nbsp;пульт охраны ЧОП</li>
+                    <li class="specs__item">SMS собственнику</li>
+                </ul>
+            <h3 class="specs__subtitle">GSM</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Звонок собственнику</li>
+                </ul>
+                
+        <h2 class="specs__title">Возможности беспроводной системы&nbsp;868</h2>
+            <h3 class="specs__subtitle">2G, LTE - опционально</h3>
+            <h3 class="specs__subtitle">Дальность</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">5000&nbsp;м</li>
+                </ul>
+            <h3 class="specs__subtitle">Перекрытия</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">5-6</li>
+                </ul>
+            <h3 class="specs__subtitle">Устройства</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">64</li>
+                </ul>
+            <h3 class="specs__subtitle">Шифрование</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Проприетарный протокол “Ритм”</li>
+                </ul>
+            <h3 class="specs__subtitle">Двусторонняя связь</h3>
+            <h3 class="specs__subtitle">Период автотестов в&nbsp;радиосистеме,&nbsp;мин</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">4</li>
+                </ul>
+
+        <h2 class="specs__title">Возможности беспроводной системы&nbsp;433</h2>
+            <h3 class="specs__subtitle">Дальность</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">1200&nbsp;м</li>
+                </ul>
+            <h3 class="specs__subtitle">Радиодатчики</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32</li>
+                </ul>
+            <h3 class="specs__subtitle">Брелки</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32</li>
+                </ul>
+            <h3 class="specs__subtitle">Клавиатуры</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">5</li>
+                </ul>
+            <h3 class="specs__subtitle">Радиомодули (реле, сирены, табло "Выход")</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">16</li>
+                </ul>
+            <h3 class="specs__subtitle">Шифрование</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Проприетарный протокол “Ритм”</li>
+                </ul>
+            <h3 class="specs__subtitle">Двусторонняя связь</h3>
+            <h3 class="specs__subtitle">Период опроса датчиков</h3>
+            <h3 class="specs__subtitle">Период автотестов в&nbsp;радиосистеме, мин</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Период автотестов устанавливается при&nbsp;создании радиосистемы от&nbsp;1 до&nbsp;59&nbsp;мин</li>
+                </ul>
+
+        <h2 class="specs__title">Возможности проводной системы</h2>
+            <h3 class="specs__subtitle">16 проводных шлейфов</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">9В 0,01А</li>
+                </ul>
+            <h3 class="specs__subtitle">2 выхода 12В с контролем линии для&nbsp;подключения исполнительных устройств</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 170 мА (открытый коллектор)</li>
+                </ul>
+            <h3 class="specs__subtitle">Цифровая адресная шина</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Подключение проводных клавиатур</li>
+                    <li class="specs__item">Подключение интеллектуального реле</li>
+                </ul>
+            <h3 class="specs__subtitle">Клавиатуры</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">5</li>
+                </ul>
+            <h3 class="specs__subtitle">Интегрированный контроллер Touch memory</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">16</li>
+                </ul>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателем NFS</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями MIF2 и MIF3</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями Proximity в&nbsp;протоколе Touch memory</h3>
+            <h3 class="specs__subtitle">Работа входа Touch memory в&nbsp;режиме импульсного управления ?</h3>
+            
+            <h3 class="specs__subtitle">Работа с&nbsp;внешним проводным датчиком температуры</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Отдельное питание 5 V</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Подключение индикации</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Опционально</li>
+                </ul>
+
+        <h2 class="specs__title">Ёмкость системы</h2>
+            <h3 class="specs__subtitle">16 разделов охраны</h3>
+            <h3 class="specs__subtitle">64 зоны</h3>
+            <h3 class="specs__subtitle">128 кодов пользователей</h3>
+            <h3 class="specs__subtitle">128 ключей Touch Memory</h3>
+            
+            <h3 class="specs__subtitle">15 адресных релейных плат</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">75 реле</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">10 адресных клавиатур</h3>
+            <h3 class="specs__subtitle">1 клавиатура «KB2-3»</h3>
+            <h3 class="specs__subtitle">1 неадресная релейная плата — 5 реле</h3>
+            <h3 class="specs__subtitle">2 выхода с контролем линии</h3>
+
+        <h2 class="specs__title">Общие характеристики</h2>
+            <h3 class="specs__subtitle">Управление через мобильное приложение</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, постановка/снятие, сценарии</li>
+                </ul>
+            <h3 class="specs__subtitle">Уведомления</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, SMS, звонки</li>
+                </ul>
+            <h3 class="specs__subtitle">Настройка, обновление, постановка/снятие из пультовой программы GEO.RITM</h3>
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32768 событий</li>
+                </ul>
+            <h3 class="specs__subtitle">Встроенный датчик вскрытия корпуса</h3>
+            <h3 class="specs__subtitle">Энергонезависимые часы</h3>
+            <h3 class="specs__subtitle">Конфигурирование по GPRS</h3>
+            <h3 class="specs__subtitle">Конфигурирование по Ethernet</h3>
+            <h3 class="specs__subtitle">Конфигурирование через кабель MicroUSB</h3>
+            <h3 class="specs__subtitle">Синхронизация времени с Ritm.Link или NTP</h3>
+            <h3 class="specs__subtitle">Блокировка каналов связи</h3>
+            <h3 class="specs__subtitle">Запрет постановки под охрану</h3>
+            <h3 class="specs__subtitle">Постановка под охрану кнопкой «Выход»</h3>
+            <h3 class="specs__subtitle">Частичная постановка под охрану кнопкой «Периметр»</h3>
+            <h3 class="specs__subtitle">Пожарный сертификат</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Скоро</li>
+                </ul>
+
+        <h2 class="specs__title">Питание системы</h2>
+            <h3 class="specs__subtitle">Встроенный блок питания</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">10,5..14,2V / 187..253V AC</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Контроль наличия основного питания</h3>
+            <h3 class="specs__subtitle">Резервное питание</h3>
+
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32768 событий</li>
+                </ul>
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 V, установка АКБ ёмкостью от 1.2Ач до 7Ач (АКБ в комплект поставки не входит)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Контроль разряда резервной АКБ</h3>
+            <h3 class="specs__subtitle">Контроль неисправности резервной АКБ</h3>
+
+        <h2 class="specs__title">Габариты и варианты конфигурации</h2>
+            <h3 class="specs__subtitle">Габариты</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">244x176x73 мм</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Вес в корпусе, гр. *без расширителей</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">640</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Защита корпуса</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">IP 32 (для использования в помещении)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Температурные режимы</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">−30…+50 °С (без учета АКБ)</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 V, установка АКБ ёмкостью от 1.2Ач до 7Ач</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Расширитель “Bolid (подключение оборудование “Болид”)</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Скоро</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Расширитель Ademco ContactID (подключение любого стороннего оборудования работающего в протоколе Ademco ContactID)</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Скоро</li>
+                </ul>
+
+        <h2 class="specs__title">Расширители и конфигурации</h2>
+            <h3 class="specs__subtitle">Универсальный корпус</h3>
+            <h3 class="specs__subtitle">Блок питания 2.5 А 12 В</h3>
+            <h3 class="specs__subtitle">Внешняя GSM антенна</h3>
+    </div>
+    <div class="specs__image-container">
+        <img class="specs__image" src="./img/specs-1.png">
+    </div>
+</div>
+
+
+        <div id="specs-light" class="specs">
+    <div class="specs__text">
+        <h2 class="specs__title">Связь</h2>
+        <h3 class="specs__subtitle">GSM</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2 SIM-карты</li>
+                <li class="specs__item">2G</li>
+                <li class="specs__item">LTE - опционально</li>
+            </ul>
+        <h3 class="specs__subtitle">Шифрование данных</h3>
+            <ul class="specs__list">
+                <li class="specs__item">TLS/SSL шифрование трафика</li>
+            </ul>
+
+        <h2 class="specs__title">Каналы связи</h2>
+            <h3 class="specs__subtitle">2G, LTE - опционально</h3>
+            <h3 class="specs__subtitle">GPRS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">GPRS Online</li>
+                    <li class="specs__item">GPRS Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">SMS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">SMS на&nbsp;пульт охраны ЧОП</li>
+                    <li class="specs__item">SMS собственнику</li>
+                </ul>
+            <h3 class="specs__subtitle">GSM</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Звонок собственнику</li>
+                </ul>
+                
+        <h2 class="specs__title">Возможности беспроводной системы</h2>
+            <h3 class="specs__subtitle">16 проводных шлейфов</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">9 В 0,01А</li>
+                </ul>
+            <h3 class="specs__subtitle">2 выхода 12В с контролем линии для подключения исполнительных устройств</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 170 мА (открытый коллектор)</li>
+                </ul>
+            <h3 class="specs__subtitle">Цифровая адресная шина</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Подключение проводных клавиатур</li>
+                    <li class="specs__item">Подключение интеллектуального реле</li>
+                </ul>
+            <h3 class="specs__subtitle">Интегрированный контроллер Touch memory</h3>
+            <h3 class="specs__subtitle">Двусторонняя связь</h3>
+            <h3 class="specs__subtitle">Работа со считывателем NFS</h3>
+            <h3 class="specs__subtitle">Работа со считывателями MIF2 и MIF3</h3>
+            <h3 class="specs__subtitle">Работа со считывателями Proximity в протоколе Touch memory</h3>
+            <h3 class="specs__subtitle">Работа входа Touch memory в режиме импульсного управления</h3>
+            
+        <h2 class="specs__title">Ёмкость системы</h2>
+            <h3 class="specs__subtitle">32 раздела охраны</h3>
+            <h3 class="specs__subtitle">16 зон</h3>
+            <h3 class="specs__subtitle">256 кодов пользователей</h3>
+            <h3 class="specs__subtitle">256 ключей Touch Memory</h3>
+            
+            <h3 class="specs__subtitle">Подключение дополнительных клавиатур</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">8</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">2 выхода с контролем линии</h3>
+            <h3 class="specs__subtitle">Выход для подключения индикации</h3>
+
+        <h2 class="specs__title">Общие характеристики</h2>
+            <h3 class="specs__subtitle">Управление через мобильное приложение</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, постановка/снятие, сценарии</li>
+                </ul>
+            <h3 class="specs__subtitle">Уведомления</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, SMS, звонки</li>
+                </ul>
+            <h3 class="specs__subtitle">Настройка, обновление, постановка/снятие из пультовой программы GEO.RITM</h3>
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32640 событий</li>
+                </ul>
+            <h3 class="specs__subtitle">Встроенный датчик вскрытия корпуса</h3>
+            <h3 class="specs__subtitle">Энергонезависимые часы</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по GPRS</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по TCP</h3>
+            <h3 class="specs__subtitle">Конфигурирование через кабель MicroUSB</h3>
+            <h3 class="specs__subtitle">Синхронизация времени с Ritm.Link или NTP</h3>
+            <h3 class="specs__subtitle">Блокировка каналов связи</h3>
+            <h3 class="specs__subtitle">Запрет постановки под охрану</h3>
+            <h3 class="specs__subtitle">Постановка под охрану кнопкой «Выход»</h3>
+            <h3 class="specs__subtitle">Частичная постановка под охрану кнопкой «Периметр»</h3>
+
+        <h2 class="specs__title">Питание системы</h2>
+            <h3 class="specs__subtitle">Основное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220&nbsp;В</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Адаптер питания</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220&nbsp;В&nbsp;/&nbsp;12&nbsp;В&nbsp;1&nbsp;А</li>
+                </ul>
+            <h3 class="specs__subtitle">Контроль наличия основного питания</h3>
+
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 V, установка АКБ ёмкостью от 1.2Ач до 7Ач (АКБ в комплект поставки не входит)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Контроль разряда резервной АКБ</h3>
+            <h3 class="specs__subtitle">Контроль неисправности резервной АКБ</h3>
+
+        <h2 class="specs__title">Габариты и варианты конфигурации</h2>
+            <h3 class="specs__subtitle">Габариты</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">244x176x73 мм</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Вес в корпусе, гр. *без расширителей</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">640</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Защита корпуса</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">IP 32 (для использования в помещении)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Температурные режимы</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">−30…+50 °С (без учета АКБ)</li>
+                </ul>
+
+        <h2 class="specs__title">Комплектация</h2>
+            <h3 class="specs__subtitle">Универсальный корпус</h3>
+            <h3 class="specs__subtitle">Блок питания 1 А 12 В</h3>
+            <h3 class="specs__subtitle">Внешняя GSM антенна</h3>
+    </div>
+    <div class="specs__image-container">
+        <img class="specs__image" src="./img/specs-2.png">
+    </div>
+</div>
+
+
+        <div id="specs-light-433" class="specs">
+    <div class="specs__text">
+        <h2 class="specs__title">Связь</h2>
+        <h3 class="specs__subtitle">GSM</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2 SIM-карты</li>
+                <li class="specs__item">2G</li>
+                <li class="specs__item">LTE - опционально</li>
+            </ul>
+        <h3 class="specs__subtitle">Шифрование данных</h3>
+            <ul class="specs__list">
+                <li class="specs__item">TLS/SSL шифрование трафика</li>
+            </ul>
+
+        <h2 class="specs__title">Каналы связи</h2>
+            <h3 class="specs__subtitle">2G, LTE - опционально</h3>
+            <h3 class="specs__subtitle">GPRS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">GPRS Online</li>
+                    <li class="specs__item">GPRS Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">SMS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">SMS на&nbsp;пульт охраны ЧОП</li>
+                    <li class="specs__item">SMS собственнику</li>
+                </ul>
+            <h3 class="specs__subtitle">GSM</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Звонок собственнику</li>
+                </ul>
+                
+        <h2 class="specs__title">Возможности беспроводной системы&nbsp;433</h2>
+            <h3 class="specs__subtitle">Дальность</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">1 200 м</li>
+                </ul>
+            <h3 class="specs__subtitle">Датчики</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32</li>
+                </ul>
+            <h3 class="specs__subtitle">Клавиатура</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">3</li>
+                </ul>
+            <h3 class="specs__subtitle">Радиомодули</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">16</li>
+                </ul>
+            <h3 class="specs__subtitle">Шифрование</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Проприетарный протокол "Ритм"</li>
+                </ul>
+            <h3 class="specs__subtitle">Двусторонняя связь</h3>
+            <h3 class="specs__subtitle">Период автотестов в радиосистеме, мин</h3>
+            <ul class="specs__list">
+                <li class="specs__item">Период автотестов устанавливается при создание радиосистемы от 1 до 59 мин</li>
+            </ul>
+
+        <h2 class="specs__title">Возможности проводной системы</h2>
+            <h3 class="specs__subtitle">1 проводной шлейф</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">9В 0,01А</li>
+                </ul>
+            <h3 class="specs__subtitle">2 выхода 12В с контролем линии для подключения исполнительных устройств</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 170 мА (открытый коллектор)</li>
+                </ul>
+            <h3 class="specs__subtitle">Интегрированный контроллер Touch memory</h3>
+            <h3 class="specs__subtitle">Работа со считывателем NFS</h3>
+            <h3 class="specs__subtitle">Работа со считывателями MIF2 и MIF3</h3>
+            <h3 class="specs__subtitle">Работа со считывателями Proximity в протоколе Touch memory</h3>
+            <h3 class="specs__subtitle">Работа входа Touch memory в режиме импульсного управления</h3>
+            
+        <h2 class="specs__title">Ёмкость системы</h2>
+            <h3 class="specs__subtitle">32 раздела охраны</h3>
+            <h3 class="specs__subtitle">32 зоны</h3>
+            <h3 class="specs__subtitle">256 кодов пользователей</h3>
+            <h3 class="specs__subtitle">256 ключей Touch Memory</h3>
+            
+            <h3 class="specs__subtitle">Подключение дополнительных клавиатур</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">8</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">2 выхода с контролем линии</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Подключение сирены, подключение светового оповещателя</li>
+                </ul>
+            <h3 class="specs__subtitle">Выход для подключения индикации</h3>
+
+        <h2 class="specs__title">Общие характеристики</h2>
+            <h3 class="specs__subtitle">Управление через мобильное приложение</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, постановка/снятие, сценарии</li>
+                </ul>
+            <h3 class="specs__subtitle">Уведомления</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, SMS, звонки</li>
+                </ul>
+            <h3 class="specs__subtitle">Настройка, обновление, постановка/снятие из пультовой программы GEO.RITM</h3>
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32640 событий</li>
+                </ul>
+            <h3 class="specs__subtitle">Встроенный датчик вскрытия корпуса</h3>
+            <h3 class="specs__subtitle">Энергонезависимые часы</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по GPRS</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по TCP</h3>
+            <h3 class="specs__subtitle">Конфигурирование через кабель MicroUSB</h3>
+            <h3 class="specs__subtitle">Синхронизация времени с Ritm.Link или NTP</h3>
+            <h3 class="specs__subtitle">Блокировка каналов связи</h3>
+            <h3 class="specs__subtitle">Запрет постановки под охрану</h3>
+            <h3 class="specs__subtitle">Постановка под охрану кнопкой «Выход»</h3>
+            <h3 class="specs__subtitle">Частичная постановка под охрану кнопкой «Периметр»</h3>
+
+        <h2 class="specs__title">Питание системы</h2>
+            <h3 class="specs__subtitle">Основное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220&nbsp;В</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Адаптер питания</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220&nbsp;В&nbsp;/&nbsp;12&nbsp;В&nbsp;1&nbsp;А</li>
+                </ul>
+            <h3 class="specs__subtitle">Контроль наличия основного питания</h3>
+
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 V, установка АКБ ёмкостью от 1.2Ач до 7Ач (АКБ в комплект поставки не входит)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Контроль разряда резервной АКБ</h3>
+            <h3 class="specs__subtitle">Контроль неисправности резервной АКБ</h3>
+
+        <h2 class="specs__title">Габариты и варианты конфигурации</h2>
+            <h3 class="specs__subtitle">Габариты</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">244x176x73 мм</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Вес в корпусе, гр. *без расширителей</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">от 700 гр.</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Защита корпуса</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">IP 32 (для использования в помещении)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Температурные режимы</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">−30…+50 °С (без учета АКБ)</li>
+                </ul>
+
+        <h2 class="specs__title">Комплектация</h2>
+            <h3 class="specs__subtitle">Универсальный корпус</h3>
+            <h3 class="specs__subtitle">Блок питания 1 А 12 В</h3>
+            <h3 class="specs__subtitle">Внешняя GSM антенна</h3>
+    </div>
+    <div class="specs__image-container">
+        <img class="specs__image" src="./img/specs-3.png">
+    </div>
+</div>
+
+
+        <div id="specs-keyboard" class="specs">
+    <div class="specs__text">
+        <h2 class="specs__title">Связь</h2>
+        <h3 class="specs__subtitle">GSM</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2 SIM-карты</li>
+                <li class="specs__item">2G</li>
+            </ul>
+        <h3 class="specs__subtitle">Шифрование данных</h3>
+            <ul class="specs__list">
+                <li class="specs__item">TLS/SSL шифрование трафика</li>
+            </ul>
+    
+        <h2 class="specs__title">Каналы связи</h2>
+            <h3 class="specs__subtitle">2G</h3>
+            <h3 class="specs__subtitle">GPRS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">GPRS Online</li>
+                    <li class="specs__item">GPRS Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">SMS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">SMS на&nbsp;пульт охраны ЧОП</li>
+                    <li class="specs__item">SMS собственнику</li>
+                </ul>
+            <h3 class="specs__subtitle">GSM</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Звонок собственнику</li>
+                </ul>
+
+        <h2 class="specs__title">Поддержка протоколов</h2>
+            <h3 class="specs__subtitle">Работа с пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Пультовое ПО Geo.Ritm</li>
+                </ul>
+            <h3 class="specs__subtitle">Работа с сторонним пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Andromeda</li>
+                    <li class="specs__item">Центр Охраны</li>
+                </ul>
+            <h3 class="specs__subtitle">Протокол обмена с ПО Geo.Ritm</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Ritm-BIN</li>
+                </ul>
+            <h3 class="specs__subtitle">Протокол обмена с сторонним пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Ademco Contact ID</li>
+                    <li class="specs__item">Shugard</li>
+                </ul>
+
+        <h2 class="specs__title">Возможности проводной системы</h2>
+            <h3 class="specs__subtitle">8 проводных шлейфов</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 0,01 А</li>
+                </ul>
+            <h3 class="specs__subtitle">2 выхода 12В с контролем линии для&nbsp;подключения исполнительных устройств</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 170 мА (открытый коллектор)</li>
+                </ul>
+            <h3 class="specs__subtitle">Интегрированный контроллер Touch memory</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателем NFS</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями MIF2 и MIF3</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями Proximity в&nbsp;протоколе Touch memory</h3>
+            <h3 class="specs__subtitle">Работа входа Touch memory в&nbsp;режиме импульсного управления</h3>
+
+        <h2 class="specs__title">Общие характеристики</h2>
+            <h3 class="specs__subtitle">Управление через мобильное приложение</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, постановка/снятие, сценарии</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Уведомления</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, SMS, звонки</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32640 событий</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Встроенный датчик вскрытия корпуса</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по GPRS</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по LAN</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по TCP</h3>
+            <h3 class="specs__subtitle">Конфигурирование через кабель MicroUSB</h3>
+            <h3 class="specs__subtitle">Синхронизация времени с Ritm.Link или NTP</h3>
+            <h3 class="specs__subtitle">Блокировка каналов связи</h3>
+            <h3 class="specs__subtitle">Запрет постановки под охрану</h3>
+            <h3 class="specs__subtitle">Постановка под охрану кнопкой «Выход»</h3>
+            <h3 class="specs__subtitle">Частичная постановка под охрану кнопкой «Периметр»</h3>
+
+        <h2 class="specs__title">Питание системы</h2>
+            <h3 class="specs__subtitle">Основное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220 В</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Адаптер питания</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220 В / 12 В 1А</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Контроль наличия основного питания</h3>
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">3,7 В, установлен АКБ Li-ion ёмкостью 2600 мАч</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Контроль разряда резервной АКБ</h3>
+            <h3 class="specs__subtitle">Контроль неисправности резервной АКБ</h3>
+
+        <h2 class="specs__title">Индикация</h2>
+            <h3 class="specs__subtitle">Индикатор питания</h3>
+            <h3 class="specs__subtitle">Состояние разделов и зон</h3>
+            <h3 class="specs__subtitle">Индикатор работы в режиме настройки</h3>
+            <h3 class="specs__subtitle">Готовность к постановке под охрану</h3>
+            <h3 class="specs__subtitle">Индикатор журнала событий</h3>
+            
+        <h2 class="specs__title">Габариты и варианты конфигурации</h2>
+            <h3 class="specs__subtitle">Габариты</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">160x100х40 мм</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Вес</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">290 гр</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Защита корпуса</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">IP 32 (для использования в помещении)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Температурные режимы</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">−30…+50 °С (без учета АКБ)</li>
+                </ul>
+
+        <h2 class="specs__title">Расширители и конфигурации</h2>
+            <h3 class="specs__subtitle">Универсальный корпус</h3>
+            <h3 class="specs__subtitle">Блок питания 1 А 12 В</h3>
+            <h3 class="specs__subtitle">Внешняя GSM антенна</h3>
+    </div>
+    <div class="specs__image-container">
+        <img class="specs__image" src="./img/specs-4.png">
+    </div>
+</div>
+
+
+        <div id="specs-keyboard-2" class="specs">
+    <div class="specs__text">
+        <h2 class="specs__title">Связь</h2>
+        <h3 class="specs__subtitle">GSM</h3>
+            <ul class="specs__list">
+                <li class="specs__item">2 SIM-карты</li>
+                <li class="specs__item">2G</li>
+            </ul>
+        <h3 class="specs__subtitle">Шифрование данных</h3>
+            <ul class="specs__list">
+                <li class="specs__item">TLS/SSL шифрование трафика</li>
+            </ul>
+    
+        <h2 class="specs__title">Каналы связи</h2>
+            <h3 class="specs__subtitle">2G</h3>
+            <h3 class="specs__subtitle">GPRS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">GPRS Online</li>
+                    <li class="specs__item">GPRS Offline</li>
+                </ul>
+            <h3 class="specs__subtitle">SMS</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">SMS на&nbsp;пульт охраны ЧОП</li>
+                    <li class="specs__item">SMS собственнику</li>
+                </ul>
+            <h3 class="specs__subtitle">GSM</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Звонок собственнику</li>
+                </ul>
+
+        <h2 class="specs__title">Поддержка протоколов</h2>
+            <h3 class="specs__subtitle">Работа с пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Пультовое ПО Geo.Ritm</li>
+                </ul>
+            <h3 class="specs__subtitle">Работа с сторонним пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Andromeda</li>
+                    <li class="specs__item">Центр Охраны</li>
+                </ul>
+            <h3 class="specs__subtitle">Протокол обмена с ПО Geo.Ritm</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Ritm-BIN</li>
+                </ul>
+            <h3 class="specs__subtitle">Протокол обмена с сторонним пультовым ПО</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Ademco Contact ID</li>
+                    <li class="specs__item">Shugard</li>
+                </ul>
+
+        <h2 class="specs__title">Возможности проводной системы</h2>
+            <h3 class="specs__subtitle">8 проводных шлейфов</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 0,01 А</li>
+                </ul>
+            <h3 class="specs__subtitle">2 выхода 12В с контролем линии для&nbsp;подключения исполнительных устройств</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">12 В 170 мА (открытый коллектор)</li>
+                </ul>
+            <h3 class="specs__subtitle">Интегрированный контроллер Touch memory</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателем NFS</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями MIF2 и MIF3</h3>
+            <h3 class="specs__subtitle">Работа со&nbsp;считывателями Proximity в&nbsp;протоколе Touch memory</h3>
+            <h3 class="specs__subtitle">Работа входа Touch memory в&nbsp;режиме импульсного управления</h3>
+
+        <h2 class="specs__title">Общие характеристики</h2>
+            <h3 class="specs__subtitle">Управление через мобильное приложение</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, постановка/снятие, сценарии</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Уведомления</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">Push уведомления, SMS, звонки</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Журнал событий</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">32640 событий</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Встроенный датчик вскрытия корпуса</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по GPRS</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по LAN</h3>
+            <h3 class="specs__subtitle">Дистанционное конфигурирование по TCP</h3>
+            <h3 class="specs__subtitle">Конфигурирование через кабель MicroUSB</h3>
+            <h3 class="specs__subtitle">Синхронизация времени с Ritm.Link или NTP</h3>
+            <h3 class="specs__subtitle">Блокировка каналов связи</h3>
+            <h3 class="specs__subtitle">Запрет постановки под охрану</h3>
+            <h3 class="specs__subtitle">Постановка под охрану кнопкой «Выход»</h3>
+            <h3 class="specs__subtitle">Частичная постановка под охрану кнопкой «Периметр»</h3>
+
+        <h2 class="specs__title">Питание системы</h2>
+            <h3 class="specs__subtitle">Основное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220 В</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Адаптер питания</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">220 В / 12 В 1А</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Контроль наличия основного питания</h3>
+            <h3 class="specs__subtitle">Резервное питание</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">3,7 В, установлен АКБ Li-ion ёмкостью 2600 мАч</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Контроль разряда резервной АКБ</h3>
+            <h3 class="specs__subtitle">Контроль неисправности резервной АКБ</h3>
+
+        <h2 class="specs__title">Индикация</h2>
+            <h3 class="specs__subtitle">Индикатор питания</h3>
+            <h3 class="specs__subtitle">Состояние разделов и зон</h3>
+            <h3 class="specs__subtitle">Индикатор работы в режиме настройки</h3>
+            <h3 class="specs__subtitle">Готовность к постановке под охрану</h3>
+            <h3 class="specs__subtitle">Индикатор журнала событий</h3>
+            
+        <h2 class="specs__title">Габариты и варианты конфигурации</h2>
+            <h3 class="specs__subtitle">Габариты</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">160x100х40 мм</li>
+                </ul>
+            
+            <h3 class="specs__subtitle">Вес</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">290 гр</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Защита корпуса</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">IP 32 (для использования в помещении)</li>
+                </ul>
+
+            <h3 class="specs__subtitle">Температурные режимы</h3>
+                <ul class="specs__list">
+                    <li class="specs__item">−30…+50 °С (без учета АКБ)</li>
+                </ul>
+
+        <h2 class="specs__title">Расширители и конфигурации</h2>
+            <h3 class="specs__subtitle">Универсальный корпус</h3>
+            <h3 class="specs__subtitle">Блок питания 1 А 12 В</h3>
+            <h3 class="specs__subtitle">Внешняя GSM антенна</h3>
+    </div>
+    <div class="specs__image-container">
+        <img class="specs__image" src="./img/specs-5.png">
+    </div>
+</div>
+
+
+    </div>
+</div>
 
 <svg display="none">
     <symbol id="logo" width="74" height="39" viewBox="0 0 74 39" fill="none">
@@ -147,7 +1017,6 @@
     </div>
 </div>
 
-<div class="header-placeholder"></div>
 <header>
     <div class="container">
         <a href="#section-1">
@@ -157,10 +1026,10 @@
         </a>
 
         <ul class="header--menu">
-            <li class="text text_sm"><a href="#" headerlinks>Mega</a></li>
-            <li class="text text_sm"><a href="#" headerlinks>Mega Light</a></li>
-            <li class="text text_sm"><a href="#" headerlinks>Mega Keyboard</a></li>
-            <li class="text text_sm"><a href="#" headerlinks>Софт</a></li>
+            <li class="text text_sm"><a href="#section-megapower" headerlinks>Mega</a></li>
+            <li class="text text_sm"><a href="#section-mega-light" headerlinks>Mega Light</a></li>
+            <li class="text text_sm"><a href="#section-mega-keyboard" headerlinks>Mega Keyboard</a></li>
+            <li class="text text_sm"><a href="#section-software-1" headerlinks>Софт</a></li>
             <li class="text text_sm"><a href="#" headerlinks>Контакты</a></li>
         </ul>
 
@@ -174,35 +1043,35 @@
                 </button>
 
                 <div class="specification--content">
-                    <a href="#" class="specification--item">
+                    <a href="#" class="specification--item" id="specs-mega-button">
                         <svg class="specification--icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.4141 9.81538C17.216 9.81538 18.5612 10.34 19.4579 11.3892C20.3547 12.4385 20.803 13.9023 20.803 15.7977V16.2377H18.3074V15.62C18.3074 14.5285 18.0705 13.6823 17.6052 13.09C17.1399 12.4977 16.4293 12.2015 15.4733 12.2015C14.475 12.2015 13.739 12.5231 13.2737 13.1577C12.8084 13.7923 12.5716 14.7654 12.5716 16.06V21.4246C13.2568 19.7154 14.5427 18.8608 16.4293 18.8608C17.9351 18.8608 19.0518 19.36 19.7794 20.3669C20.5069 21.3654 20.8707 22.7615 20.8707 24.53V28.1515C20.8707 30.0215 20.4054 31.4938 19.4664 32.5769C18.5358 33.66 17.1822 34.2015 15.4056 34.2015C13.6037 34.2015 12.2416 33.66 11.311 32.5769C10.3804 31.4938 9.90668 30.0215 9.90668 28.1515V15.9585C9.90668 14.0038 10.3635 12.4892 11.2772 11.4146C12.1909 10.34 13.5614 9.80692 15.4056 9.80692L15.4141 9.81538ZM0.0170419 16.2462C0.0170419 15.0192 0.803814 13.97 1.89514 13.5808C1.93744 10.67 2.1997 7.96231 3.48561 5.84692C4.96609 3.41846 7.69864 1.87846 12.7407 1.87846H13.6037C13.9928 0.786923 15.0418 0 16.2601 0C17.8167 0 19.0857 1.26077 19.0857 2.82615C19.0857 4.38308 17.8252 5.65231 16.2601 5.65231C15.0334 5.65231 13.9928 4.87385 13.6037 3.78231H12.7407C8.47695 3.78231 6.24354 4.96692 5.10145 6.83692C4.04396 8.57154 3.81554 10.9662 3.7817 13.5808C4.87303 13.97 5.65134 15.0108 5.65134 16.2377C5.65134 17.7946 4.39082 19.0638 2.82573 19.0638C1.26911 19.0638 0.00012207 17.8031 0.00012207 16.2377L0.0170419 16.2462ZM0.0170419 27.7623C0.0170419 26.2054 1.27757 24.9362 2.84265 24.9362C4.39928 24.9362 5.66826 26.1969 5.66826 27.7623C5.66826 28.9892 4.88995 30.03 3.79862 30.4192C3.83246 33.0338 4.05242 35.4369 5.10991 37.1715C6.252 39.0415 8.48541 40.2262 12.7492 40.2262H13.6121C14.0013 39.1346 15.0503 38.3477 16.2685 38.3477C17.8252 38.3477 19.0941 39.6085 19.0941 41.1738C19.0941 42.7308 17.8336 44 16.2685 44C15.0418 44 14.0013 43.2215 13.6121 42.13H12.7492C7.69864 42.13 4.97455 40.59 3.49407 38.1615C2.1997 36.0462 1.93744 33.3385 1.9036 30.4277C0.803814 30.0385 0.0170419 28.9977 0.0170419 27.7623ZM38.3489 16.2462C38.3489 15.0192 39.1272 13.9785 40.2185 13.5892C40.1847 10.9746 39.9647 8.57154 38.9073 6.83692C37.7652 4.96692 35.5317 3.78231 31.268 3.78231H30.4473C30.0582 4.87385 29.0176 5.65231 27.7909 5.65231C26.2343 5.65231 24.9653 4.39154 24.9653 2.82615C24.9653 1.26923 26.2258 0 27.7909 0C29.0176 0 30.0582 0.786923 30.4473 1.87846H31.268C36.3185 1.87846 39.0426 3.41846 40.5231 5.84692C41.8175 7.96231 42.0797 10.6615 42.1136 13.5723C43.2133 13.9615 44.0001 15.0108 44.0001 16.2377C44.0001 17.7946 42.7396 19.0638 41.1745 19.0638C39.6179 19.0638 38.3489 17.8031 38.3489 16.2377V16.2462ZM38.3489 27.7623C38.3489 26.2054 39.6094 24.9362 41.1745 24.9362C42.7311 24.9362 44.0001 26.1969 44.0001 27.7623C44.0001 28.9892 43.2133 30.0385 42.122 30.4277C42.0797 33.3385 41.8175 36.0462 40.5316 38.1615C39.0511 40.59 36.3185 42.13 31.2764 42.13H30.4558C30.0666 43.2215 29.0261 44 27.7994 44C26.2428 44 24.9738 42.7392 24.9738 41.1738C24.9738 39.6169 26.2343 38.3477 27.7994 38.3477C29.0261 38.3477 30.0666 39.1346 30.4558 40.2262H31.2764C35.5402 40.2262 37.7736 39.0415 38.9157 37.1715C39.9732 35.4369 40.2016 33.0423 40.2355 30.4192C39.1441 30.03 38.3658 28.9892 38.3658 27.7623H38.3489ZM15.4141 21.2808C14.4581 21.2808 13.7475 21.5854 13.2822 22.1862C12.8169 22.7869 12.58 23.6415 12.58 24.7331V28.3208C12.58 29.4123 12.8169 30.2585 13.2822 30.8677C13.7475 31.4685 14.4581 31.7731 15.4141 31.7731C16.3447 31.7731 17.0553 31.4685 17.5291 30.8677C18.0113 30.2669 18.2481 29.4123 18.2481 28.3208V24.7331C18.2481 23.6415 18.0113 22.7954 17.5291 22.1862C17.0468 21.5854 16.3447 21.2808 15.4141 21.2808ZM33.0699 33.9477H30.4727V29.1331H22.7573V26.7046L30.1682 10.0354H33.0699V26.7046H34.9819V29.1331H33.0699V33.9477ZM30.4727 26.7046V15.0277L25.2107 26.7046H30.4727Z" fill="currentColor"/>
                         </svg>
                         <p class="specification--title">Mega</p>
                     </a>
 
-                    <a href="#" class="specification--item">
+                    <a href="#" class="specification--item" id="specs-light-button">
                         <svg class="specification--icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.4141 9.81538C17.216 9.81538 18.5612 10.34 19.4579 11.3892C20.3547 12.4385 20.803 13.9023 20.803 15.7977V16.2377H18.3074V15.62C18.3074 14.5285 18.0705 13.6823 17.6052 13.09C17.1399 12.4977 16.4293 12.2015 15.4733 12.2015C14.475 12.2015 13.739 12.5231 13.2737 13.1577C12.8084 13.7923 12.5716 14.7654 12.5716 16.06V21.4246C13.2568 19.7154 14.5427 18.8608 16.4293 18.8608C17.9351 18.8608 19.0518 19.36 19.7794 20.3669C20.5069 21.3654 20.8707 22.7615 20.8707 24.53V28.1515C20.8707 30.0215 20.4054 31.4938 19.4664 32.5769C18.5358 33.66 17.1822 34.2015 15.4056 34.2015C13.6037 34.2015 12.2416 33.66 11.311 32.5769C10.3804 31.4938 9.90668 30.0215 9.90668 28.1515V15.9585C9.90668 14.0038 10.3635 12.4892 11.2772 11.4146C12.1909 10.34 13.5614 9.80692 15.4056 9.80692L15.4141 9.81538ZM0.0170419 16.2462C0.0170419 15.0192 0.803814 13.97 1.89514 13.5808C1.93744 10.67 2.1997 7.96231 3.48561 5.84692C4.96609 3.41846 7.69864 1.87846 12.7407 1.87846H13.6037C13.9928 0.786923 15.0418 0 16.2601 0C17.8167 0 19.0857 1.26077 19.0857 2.82615C19.0857 4.38308 17.8252 5.65231 16.2601 5.65231C15.0334 5.65231 13.9928 4.87385 13.6037 3.78231H12.7407C8.47695 3.78231 6.24354 4.96692 5.10145 6.83692C4.04396 8.57154 3.81554 10.9662 3.7817 13.5808C4.87303 13.97 5.65134 15.0108 5.65134 16.2377C5.65134 17.7946 4.39082 19.0638 2.82573 19.0638C1.26911 19.0638 0.00012207 17.8031 0.00012207 16.2377L0.0170419 16.2462ZM0.0170419 27.7623C0.0170419 26.2054 1.27757 24.9362 2.84265 24.9362C4.39928 24.9362 5.66826 26.1969 5.66826 27.7623C5.66826 28.9892 4.88995 30.03 3.79862 30.4192C3.83246 33.0338 4.05242 35.4369 5.10991 37.1715C6.252 39.0415 8.48541 40.2262 12.7492 40.2262H13.6121C14.0013 39.1346 15.0503 38.3477 16.2685 38.3477C17.8252 38.3477 19.0941 39.6085 19.0941 41.1738C19.0941 42.7308 17.8336 44 16.2685 44C15.0418 44 14.0013 43.2215 13.6121 42.13H12.7492C7.69864 42.13 4.97455 40.59 3.49407 38.1615C2.1997 36.0462 1.93744 33.3385 1.9036 30.4277C0.803814 30.0385 0.0170419 28.9977 0.0170419 27.7623ZM38.3489 16.2462C38.3489 15.0192 39.1272 13.9785 40.2185 13.5892C40.1847 10.9746 39.9647 8.57154 38.9073 6.83692C37.7652 4.96692 35.5317 3.78231 31.268 3.78231H30.4473C30.0582 4.87385 29.0176 5.65231 27.7909 5.65231C26.2343 5.65231 24.9653 4.39154 24.9653 2.82615C24.9653 1.26923 26.2258 0 27.7909 0C29.0176 0 30.0582 0.786923 30.4473 1.87846H31.268C36.3185 1.87846 39.0426 3.41846 40.5231 5.84692C41.8175 7.96231 42.0797 10.6615 42.1136 13.5723C43.2133 13.9615 44.0001 15.0108 44.0001 16.2377C44.0001 17.7946 42.7396 19.0638 41.1745 19.0638C39.6179 19.0638 38.3489 17.8031 38.3489 16.2377V16.2462ZM38.3489 27.7623C38.3489 26.2054 39.6094 24.9362 41.1745 24.9362C42.7311 24.9362 44.0001 26.1969 44.0001 27.7623C44.0001 28.9892 43.2133 30.0385 42.122 30.4277C42.0797 33.3385 41.8175 36.0462 40.5316 38.1615C39.0511 40.59 36.3185 42.13 31.2764 42.13H30.4558C30.0666 43.2215 29.0261 44 27.7994 44C26.2428 44 24.9738 42.7392 24.9738 41.1738C24.9738 39.6169 26.2343 38.3477 27.7994 38.3477C29.0261 38.3477 30.0666 39.1346 30.4558 40.2262H31.2764C35.5402 40.2262 37.7736 39.0415 38.9157 37.1715C39.9732 35.4369 40.2016 33.0423 40.2355 30.4192C39.1441 30.03 38.3658 28.9892 38.3658 27.7623H38.3489ZM15.4141 21.2808C14.4581 21.2808 13.7475 21.5854 13.2822 22.1862C12.8169 22.7869 12.58 23.6415 12.58 24.7331V28.3208C12.58 29.4123 12.8169 30.2585 13.2822 30.8677C13.7475 31.4685 14.4581 31.7731 15.4141 31.7731C16.3447 31.7731 17.0553 31.4685 17.5291 30.8677C18.0113 30.2669 18.2481 29.4123 18.2481 28.3208V24.7331C18.2481 23.6415 18.0113 22.7954 17.5291 22.1862C17.0468 21.5854 16.3447 21.2808 15.4141 21.2808ZM33.0699 33.9477H30.4727V29.1331H22.7573V26.7046L30.1682 10.0354H33.0699V26.7046H34.9819V29.1331H33.0699V33.9477ZM30.4727 26.7046V15.0277L25.2107 26.7046H30.4727Z" fill="currentColor"/>
                         </svg>
                         <p class="specification--title">Mega Light</p>
                     </a>
 
-                    <a href="#" class="specification--item">
+                    <a href="#" class="specification--item" id="specs-light-433-button">
                         <svg class="specification--icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.4141 9.81538C17.216 9.81538 18.5612 10.34 19.4579 11.3892C20.3547 12.4385 20.803 13.9023 20.803 15.7977V16.2377H18.3074V15.62C18.3074 14.5285 18.0705 13.6823 17.6052 13.09C17.1399 12.4977 16.4293 12.2015 15.4733 12.2015C14.475 12.2015 13.739 12.5231 13.2737 13.1577C12.8084 13.7923 12.5716 14.7654 12.5716 16.06V21.4246C13.2568 19.7154 14.5427 18.8608 16.4293 18.8608C17.9351 18.8608 19.0518 19.36 19.7794 20.3669C20.5069 21.3654 20.8707 22.7615 20.8707 24.53V28.1515C20.8707 30.0215 20.4054 31.4938 19.4664 32.5769C18.5358 33.66 17.1822 34.2015 15.4056 34.2015C13.6037 34.2015 12.2416 33.66 11.311 32.5769C10.3804 31.4938 9.90668 30.0215 9.90668 28.1515V15.9585C9.90668 14.0038 10.3635 12.4892 11.2772 11.4146C12.1909 10.34 13.5614 9.80692 15.4056 9.80692L15.4141 9.81538ZM0.0170419 16.2462C0.0170419 15.0192 0.803814 13.97 1.89514 13.5808C1.93744 10.67 2.1997 7.96231 3.48561 5.84692C4.96609 3.41846 7.69864 1.87846 12.7407 1.87846H13.6037C13.9928 0.786923 15.0418 0 16.2601 0C17.8167 0 19.0857 1.26077 19.0857 2.82615C19.0857 4.38308 17.8252 5.65231 16.2601 5.65231C15.0334 5.65231 13.9928 4.87385 13.6037 3.78231H12.7407C8.47695 3.78231 6.24354 4.96692 5.10145 6.83692C4.04396 8.57154 3.81554 10.9662 3.7817 13.5808C4.87303 13.97 5.65134 15.0108 5.65134 16.2377C5.65134 17.7946 4.39082 19.0638 2.82573 19.0638C1.26911 19.0638 0.00012207 17.8031 0.00012207 16.2377L0.0170419 16.2462ZM0.0170419 27.7623C0.0170419 26.2054 1.27757 24.9362 2.84265 24.9362C4.39928 24.9362 5.66826 26.1969 5.66826 27.7623C5.66826 28.9892 4.88995 30.03 3.79862 30.4192C3.83246 33.0338 4.05242 35.4369 5.10991 37.1715C6.252 39.0415 8.48541 40.2262 12.7492 40.2262H13.6121C14.0013 39.1346 15.0503 38.3477 16.2685 38.3477C17.8252 38.3477 19.0941 39.6085 19.0941 41.1738C19.0941 42.7308 17.8336 44 16.2685 44C15.0418 44 14.0013 43.2215 13.6121 42.13H12.7492C7.69864 42.13 4.97455 40.59 3.49407 38.1615C2.1997 36.0462 1.93744 33.3385 1.9036 30.4277C0.803814 30.0385 0.0170419 28.9977 0.0170419 27.7623ZM38.3489 16.2462C38.3489 15.0192 39.1272 13.9785 40.2185 13.5892C40.1847 10.9746 39.9647 8.57154 38.9073 6.83692C37.7652 4.96692 35.5317 3.78231 31.268 3.78231H30.4473C30.0582 4.87385 29.0176 5.65231 27.7909 5.65231C26.2343 5.65231 24.9653 4.39154 24.9653 2.82615C24.9653 1.26923 26.2258 0 27.7909 0C29.0176 0 30.0582 0.786923 30.4473 1.87846H31.268C36.3185 1.87846 39.0426 3.41846 40.5231 5.84692C41.8175 7.96231 42.0797 10.6615 42.1136 13.5723C43.2133 13.9615 44.0001 15.0108 44.0001 16.2377C44.0001 17.7946 42.7396 19.0638 41.1745 19.0638C39.6179 19.0638 38.3489 17.8031 38.3489 16.2377V16.2462ZM38.3489 27.7623C38.3489 26.2054 39.6094 24.9362 41.1745 24.9362C42.7311 24.9362 44.0001 26.1969 44.0001 27.7623C44.0001 28.9892 43.2133 30.0385 42.122 30.4277C42.0797 33.3385 41.8175 36.0462 40.5316 38.1615C39.0511 40.59 36.3185 42.13 31.2764 42.13H30.4558C30.0666 43.2215 29.0261 44 27.7994 44C26.2428 44 24.9738 42.7392 24.9738 41.1738C24.9738 39.6169 26.2343 38.3477 27.7994 38.3477C29.0261 38.3477 30.0666 39.1346 30.4558 40.2262H31.2764C35.5402 40.2262 37.7736 39.0415 38.9157 37.1715C39.9732 35.4369 40.2016 33.0423 40.2355 30.4192C39.1441 30.03 38.3658 28.9892 38.3658 27.7623H38.3489ZM15.4141 21.2808C14.4581 21.2808 13.7475 21.5854 13.2822 22.1862C12.8169 22.7869 12.58 23.6415 12.58 24.7331V28.3208C12.58 29.4123 12.8169 30.2585 13.2822 30.8677C13.7475 31.4685 14.4581 31.7731 15.4141 31.7731C16.3447 31.7731 17.0553 31.4685 17.5291 30.8677C18.0113 30.2669 18.2481 29.4123 18.2481 28.3208V24.7331C18.2481 23.6415 18.0113 22.7954 17.5291 22.1862C17.0468 21.5854 16.3447 21.2808 15.4141 21.2808ZM33.0699 33.9477H30.4727V29.1331H22.7573V26.7046L30.1682 10.0354H33.0699V26.7046H34.9819V29.1331H33.0699V33.9477ZM30.4727 26.7046V15.0277L25.2107 26.7046H30.4727Z" fill="currentColor"/>
                         </svg>
                         <p class="specification--title">Mega Light 433</p>
                     </a>
 
-                    <a href="#" class="specification--item">
+                    <a href="#" class="specification--item" id="specs-keyboard-button">
                         <svg class="specification--icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.4141 9.81538C17.216 9.81538 18.5612 10.34 19.4579 11.3892C20.3547 12.4385 20.803 13.9023 20.803 15.7977V16.2377H18.3074V15.62C18.3074 14.5285 18.0705 13.6823 17.6052 13.09C17.1399 12.4977 16.4293 12.2015 15.4733 12.2015C14.475 12.2015 13.739 12.5231 13.2737 13.1577C12.8084 13.7923 12.5716 14.7654 12.5716 16.06V21.4246C13.2568 19.7154 14.5427 18.8608 16.4293 18.8608C17.9351 18.8608 19.0518 19.36 19.7794 20.3669C20.5069 21.3654 20.8707 22.7615 20.8707 24.53V28.1515C20.8707 30.0215 20.4054 31.4938 19.4664 32.5769C18.5358 33.66 17.1822 34.2015 15.4056 34.2015C13.6037 34.2015 12.2416 33.66 11.311 32.5769C10.3804 31.4938 9.90668 30.0215 9.90668 28.1515V15.9585C9.90668 14.0038 10.3635 12.4892 11.2772 11.4146C12.1909 10.34 13.5614 9.80692 15.4056 9.80692L15.4141 9.81538ZM0.0170419 16.2462C0.0170419 15.0192 0.803814 13.97 1.89514 13.5808C1.93744 10.67 2.1997 7.96231 3.48561 5.84692C4.96609 3.41846 7.69864 1.87846 12.7407 1.87846H13.6037C13.9928 0.786923 15.0418 0 16.2601 0C17.8167 0 19.0857 1.26077 19.0857 2.82615C19.0857 4.38308 17.8252 5.65231 16.2601 5.65231C15.0334 5.65231 13.9928 4.87385 13.6037 3.78231H12.7407C8.47695 3.78231 6.24354 4.96692 5.10145 6.83692C4.04396 8.57154 3.81554 10.9662 3.7817 13.5808C4.87303 13.97 5.65134 15.0108 5.65134 16.2377C5.65134 17.7946 4.39082 19.0638 2.82573 19.0638C1.26911 19.0638 0.00012207 17.8031 0.00012207 16.2377L0.0170419 16.2462ZM0.0170419 27.7623C0.0170419 26.2054 1.27757 24.9362 2.84265 24.9362C4.39928 24.9362 5.66826 26.1969 5.66826 27.7623C5.66826 28.9892 4.88995 30.03 3.79862 30.4192C3.83246 33.0338 4.05242 35.4369 5.10991 37.1715C6.252 39.0415 8.48541 40.2262 12.7492 40.2262H13.6121C14.0013 39.1346 15.0503 38.3477 16.2685 38.3477C17.8252 38.3477 19.0941 39.6085 19.0941 41.1738C19.0941 42.7308 17.8336 44 16.2685 44C15.0418 44 14.0013 43.2215 13.6121 42.13H12.7492C7.69864 42.13 4.97455 40.59 3.49407 38.1615C2.1997 36.0462 1.93744 33.3385 1.9036 30.4277C0.803814 30.0385 0.0170419 28.9977 0.0170419 27.7623ZM38.3489 16.2462C38.3489 15.0192 39.1272 13.9785 40.2185 13.5892C40.1847 10.9746 39.9647 8.57154 38.9073 6.83692C37.7652 4.96692 35.5317 3.78231 31.268 3.78231H30.4473C30.0582 4.87385 29.0176 5.65231 27.7909 5.65231C26.2343 5.65231 24.9653 4.39154 24.9653 2.82615C24.9653 1.26923 26.2258 0 27.7909 0C29.0176 0 30.0582 0.786923 30.4473 1.87846H31.268C36.3185 1.87846 39.0426 3.41846 40.5231 5.84692C41.8175 7.96231 42.0797 10.6615 42.1136 13.5723C43.2133 13.9615 44.0001 15.0108 44.0001 16.2377C44.0001 17.7946 42.7396 19.0638 41.1745 19.0638C39.6179 19.0638 38.3489 17.8031 38.3489 16.2377V16.2462ZM38.3489 27.7623C38.3489 26.2054 39.6094 24.9362 41.1745 24.9362C42.7311 24.9362 44.0001 26.1969 44.0001 27.7623C44.0001 28.9892 43.2133 30.0385 42.122 30.4277C42.0797 33.3385 41.8175 36.0462 40.5316 38.1615C39.0511 40.59 36.3185 42.13 31.2764 42.13H30.4558C30.0666 43.2215 29.0261 44 27.7994 44C26.2428 44 24.9738 42.7392 24.9738 41.1738C24.9738 39.6169 26.2343 38.3477 27.7994 38.3477C29.0261 38.3477 30.0666 39.1346 30.4558 40.2262H31.2764C35.5402 40.2262 37.7736 39.0415 38.9157 37.1715C39.9732 35.4369 40.2016 33.0423 40.2355 30.4192C39.1441 30.03 38.3658 28.9892 38.3658 27.7623H38.3489ZM15.4141 21.2808C14.4581 21.2808 13.7475 21.5854 13.2822 22.1862C12.8169 22.7869 12.58 23.6415 12.58 24.7331V28.3208C12.58 29.4123 12.8169 30.2585 13.2822 30.8677C13.7475 31.4685 14.4581 31.7731 15.4141 31.7731C16.3447 31.7731 17.0553 31.4685 17.5291 30.8677C18.0113 30.2669 18.2481 29.4123 18.2481 28.3208V24.7331C18.2481 23.6415 18.0113 22.7954 17.5291 22.1862C17.0468 21.5854 16.3447 21.2808 15.4141 21.2808ZM33.0699 33.9477H30.4727V29.1331H22.7573V26.7046L30.1682 10.0354H33.0699V26.7046H34.9819V29.1331H33.0699V33.9477ZM30.4727 26.7046V15.0277L25.2107 26.7046H30.4727Z" fill="currentColor"/>
                         </svg>
                         <p class="specification--title">Mega Keyboard</p>
                     </a>
 
-                    <a href="#" class="specification--item">
+                    <a href="#" class="specification--item" id="specs-keyboard-2-button">
                         <svg class="specification--icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M15.4141 9.81538C17.216 9.81538 18.5612 10.34 19.4579 11.3892C20.3547 12.4385 20.803 13.9023 20.803 15.7977V16.2377H18.3074V15.62C18.3074 14.5285 18.0705 13.6823 17.6052 13.09C17.1399 12.4977 16.4293 12.2015 15.4733 12.2015C14.475 12.2015 13.739 12.5231 13.2737 13.1577C12.8084 13.7923 12.5716 14.7654 12.5716 16.06V21.4246C13.2568 19.7154 14.5427 18.8608 16.4293 18.8608C17.9351 18.8608 19.0518 19.36 19.7794 20.3669C20.5069 21.3654 20.8707 22.7615 20.8707 24.53V28.1515C20.8707 30.0215 20.4054 31.4938 19.4664 32.5769C18.5358 33.66 17.1822 34.2015 15.4056 34.2015C13.6037 34.2015 12.2416 33.66 11.311 32.5769C10.3804 31.4938 9.90668 30.0215 9.90668 28.1515V15.9585C9.90668 14.0038 10.3635 12.4892 11.2772 11.4146C12.1909 10.34 13.5614 9.80692 15.4056 9.80692L15.4141 9.81538ZM0.0170419 16.2462C0.0170419 15.0192 0.803814 13.97 1.89514 13.5808C1.93744 10.67 2.1997 7.96231 3.48561 5.84692C4.96609 3.41846 7.69864 1.87846 12.7407 1.87846H13.6037C13.9928 0.786923 15.0418 0 16.2601 0C17.8167 0 19.0857 1.26077 19.0857 2.82615C19.0857 4.38308 17.8252 5.65231 16.2601 5.65231C15.0334 5.65231 13.9928 4.87385 13.6037 3.78231H12.7407C8.47695 3.78231 6.24354 4.96692 5.10145 6.83692C4.04396 8.57154 3.81554 10.9662 3.7817 13.5808C4.87303 13.97 5.65134 15.0108 5.65134 16.2377C5.65134 17.7946 4.39082 19.0638 2.82573 19.0638C1.26911 19.0638 0.00012207 17.8031 0.00012207 16.2377L0.0170419 16.2462ZM0.0170419 27.7623C0.0170419 26.2054 1.27757 24.9362 2.84265 24.9362C4.39928 24.9362 5.66826 26.1969 5.66826 27.7623C5.66826 28.9892 4.88995 30.03 3.79862 30.4192C3.83246 33.0338 4.05242 35.4369 5.10991 37.1715C6.252 39.0415 8.48541 40.2262 12.7492 40.2262H13.6121C14.0013 39.1346 15.0503 38.3477 16.2685 38.3477C17.8252 38.3477 19.0941 39.6085 19.0941 41.1738C19.0941 42.7308 17.8336 44 16.2685 44C15.0418 44 14.0013 43.2215 13.6121 42.13H12.7492C7.69864 42.13 4.97455 40.59 3.49407 38.1615C2.1997 36.0462 1.93744 33.3385 1.9036 30.4277C0.803814 30.0385 0.0170419 28.9977 0.0170419 27.7623ZM38.3489 16.2462C38.3489 15.0192 39.1272 13.9785 40.2185 13.5892C40.1847 10.9746 39.9647 8.57154 38.9073 6.83692C37.7652 4.96692 35.5317 3.78231 31.268 3.78231H30.4473C30.0582 4.87385 29.0176 5.65231 27.7909 5.65231C26.2343 5.65231 24.9653 4.39154 24.9653 2.82615C24.9653 1.26923 26.2258 0 27.7909 0C29.0176 0 30.0582 0.786923 30.4473 1.87846H31.268C36.3185 1.87846 39.0426 3.41846 40.5231 5.84692C41.8175 7.96231 42.0797 10.6615 42.1136 13.5723C43.2133 13.9615 44.0001 15.0108 44.0001 16.2377C44.0001 17.7946 42.7396 19.0638 41.1745 19.0638C39.6179 19.0638 38.3489 17.8031 38.3489 16.2377V16.2462ZM38.3489 27.7623C38.3489 26.2054 39.6094 24.9362 41.1745 24.9362C42.7311 24.9362 44.0001 26.1969 44.0001 27.7623C44.0001 28.9892 43.2133 30.0385 42.122 30.4277C42.0797 33.3385 41.8175 36.0462 40.5316 38.1615C39.0511 40.59 36.3185 42.13 31.2764 42.13H30.4558C30.0666 43.2215 29.0261 44 27.7994 44C26.2428 44 24.9738 42.7392 24.9738 41.1738C24.9738 39.6169 26.2343 38.3477 27.7994 38.3477C29.0261 38.3477 30.0666 39.1346 30.4558 40.2262H31.2764C35.5402 40.2262 37.7736 39.0415 38.9157 37.1715C39.9732 35.4369 40.2016 33.0423 40.2355 30.4192C39.1441 30.03 38.3658 28.9892 38.3658 27.7623H38.3489ZM15.4141 21.2808C14.4581 21.2808 13.7475 21.5854 13.2822 22.1862C12.8169 22.7869 12.58 23.6415 12.58 24.7331V28.3208C12.58 29.4123 12.8169 30.2585 13.2822 30.8677C13.7475 31.4685 14.4581 31.7731 15.4141 31.7731C16.3447 31.7731 17.0553 31.4685 17.5291 30.8677C18.0113 30.2669 18.2481 29.4123 18.2481 28.3208V24.7331C18.2481 23.6415 18.0113 22.7954 17.5291 22.1862C17.0468 21.5854 16.3447 21.2808 15.4141 21.2808ZM33.0699 33.9477H30.4727V29.1331H22.7573V26.7046L30.1682 10.0354H33.0699V26.7046H34.9819V29.1331H33.0699V33.9477ZM30.4727 26.7046V15.0277L25.2107 26.7046H30.4727Z" fill="currentColor"/>
                         </svg>
@@ -224,26 +1093,2046 @@
 </header>
 
 
-<section class="section-hello">
-    <div class="sticky">
-        <div class="sticky-container">
-            <div class="section-content">
-                <b class="title title_md text-center text-gradient" id="s1-title1">Новаторство.<br>Независимость.</b>
-                
-                <div class="title-item" id="s1-title2">
-                    <b class="title title_md text-center text-gradient">Открытие новой эпохи <br>
-                        в охранных системах</b>
-                    <div class="text-center mt-15">
-                        <p class="text text_md text-dark-gray">Уникальная разработка Ritm</p>
-                    </div>
+<section id="section-hello">
+    <div class="presentation__sticky">
+        <!--<div class="section-content">
+            <b class="title title_md text-center text-gradient" id="s1-title1">Новаторство.<br>Независимость.</b>
+            <div class="title-item" id="s1-title2">
+                <b class="title title_md text-center text-gradient">Открытие новой эпохи <br>
+                    в охранных системах</b>
+                <div class="text-center mt-15">
+                    <p class="text text_md text-dark-gray">Уникальная разработка Ritm</p>
                 </div>
-                
-                <b class="title title_md text-center text-gradient" id="s1-title3">Подлинная эволюция <br> на&nbsp;secure-рынке</b>
             </div>
-            <canvas id="canvas-1"></canvas>
+            <b class="title title_md text-center text-gradient" id="s1-title3">Подлинная эволюция <br> на&nbsp;secure-рынке</b>
+        </div>-->
+        <!--<canvas id="hello-canvas"></canvas>-->
+        <div class="hello-video-cantainer">
+            <video class="hello-video" muted playsinline autoplay preload="auto" src="./img/hello.mp4"></video>
+            <div id="hello-replay" class="replay-btn"></div>
         </div>
     </div>
 </section>
+
+<section id="section-about-company" class="section section_white about-company">
+    <div class="container text_center">
+        <h2 class="text_lg animation_state_initial animation animation__static-element">Mega &mdash; новая эпоха для&nbsp;лучших <span class="block-desktop">охранных компаний</span></h2>
+        <div class="animation_state_initial animation animation__static-element">
+            <!--<p class="text_lg">Попробуй прямо сейчас</p>-->
+            <button class="about-company__button button button_light button_sm">Оформить заказ</button>
+        </div>
+
+        <div class="about-company__pic-wrap">
+            <picture class="about-company__pic">
+                <!--<source srcset="./img/mega-light-1400px.png" media="(min-width: 1400px)">
+                <source srcset="./img/mega-light-780px.png" media="(max-width: 1400px) and (min-width: 500px)">
+                <img src="./img/mega-light-480px.png" alt="">-->
+                <source srcset="./img/main-cover_900px.png" media="(min-width: 768px)">
+                <source srcset="./img/main-cover_900px.png" media="(max-width: 767px)">
+                <img src="./img/main-cover_900px.png" alt="">
+            </picture>
+        </div>
+    </div>
+</section>
+
+<section id="section-products" class="section section_white section-products products">
+    <div class="container">
+        <div class="text-container">
+            <h2 class="text_lg animation_state_initial animation animation__static-element">Новая линейка ультрасовременного охранного оборудования от&nbsp;Ritm.</h2>
+        </div>
+
+        <div class="catalog-slider">
+            <div class="catalog-container swiper-wrapper">
+                <div class="swiper-slide catalog-slide animation_state_initial animation animation__static-element">
+                    <div class="catalog-item">
+                        <div class="catalog-item--inner">
+                            <div class="catalog-item--img">
+                                <img src="./img/mega-440px.png" alt="">
+                            </div>
+
+                            <div class="catalog-item--info">
+                                <div class="catalog-item--header">
+                                    <b class="text text_xlg">Mega</b>
+                                    <p class="text text_sm mt-05">Модульный охранный прибор</p>
+                                </div>
+
+                                <div class="catalog-item--container">
+                                    <ul class="catalog-item--property">
+                                        <li class="property--item">
+                                            <p class="text text_sm">2 SIM карты</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">16 проводных шлейфов</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-item--container">
+                            <button class="catalog-item--button button button_light button_lg w-100">
+                                <p class="text text_sm">Узнать больше</p>
+
+                                <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide catalog-slide animation_state_initial animation animation__static-element">
+                    <div class="catalog-item">
+                        <div class="catalog-item--inner">
+                            <div class="catalog-item--img">
+                                <img src="./img/mega-light-480px.png" alt="">
+                            </div>
+
+                            <div class="catalog-item--info">
+                                <div class="catalog-item--header">
+                                    <b class="text text_xlg">Mega Light </b>
+                                    <p class="text text_sm mt-05">Проводной охранный прибор</p>
+                                </div>
+
+                                <div class="catalog-item--container">
+                                    <ul class="catalog-item--property">
+                                        <li class="property--item">
+                                            <p class="text text_sm">2 SIM карты</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">16 проводных шлейфов</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-item--container">
+                            <button class="catalog-item--button button button_light button_lg w-100">
+                                <p class="text text_sm">Узнать больше</p>
+                                <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide catalog-slide animation_state_initial animation animation__static-element">
+                    <div class="catalog-item">
+                        <div class="catalog-item--inner">
+                            <div class="catalog-item--img">
+                                <img src="./img/mega-light-433-430px.png" alt="">
+                            </div>
+
+                            <div class="catalog-item--info">
+                                <div class="catalog-item--header">
+                                    <b class="text text_xlg">Mega Light 433</b>
+                                    <p class="text text_sm mt-05">Беспроводной охранный прибор</p>
+                                </div>
+
+                                <div class="catalog-item--container">
+                                    <ul class="catalog-item--property">
+                                        <li class="property--item">
+                                            <p class="text text_sm">2 SIM карты</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">16 проводных шлейфов</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-item--container">
+                            <button class="catalog-item--button button button_light button_lg w-100">
+                                <p class="text text_sm">Узнать больше</p>
+                                <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide catalog-slide animation_state_initial animation animation__static-element">
+                    <div class="catalog-item">
+                        <div class="catalog-item--inner">
+                            <div class="catalog-item--img">
+                                <img src="./img/mega-keyboard-500px.png" alt="">
+                            </div>
+
+                            <div class="catalog-item--info">
+                                <div class="catalog-item--header">
+                                    <b class="text text_lg">Mega Keyboard</b>
+                                    <p class="text text_sm mt-05">Охранный прибор в корпусе клавиатуры проводной/беспроводной</p>
+                                </div>
+
+                                <div class="catalog-item--container">
+                                    <ul class="catalog-item--property">
+                                        <li class="property--item">
+                                            <p class="text text_sm">2 SIM карты</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">16 проводных шлейфов</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+
+                                        <li class="property--item">
+                                            <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                            <div class="text-center">
+                                                <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="catalog-item--container">
+                            <button class="catalog-item--button button button_light button_lg w-100">
+                                <p class="text text_sm">Узнать больше</p>
+                                <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-megapower" class="section section_white megapower">
+    <div class="presentation__sticky">
+        <div id="circle-wrap">
+            <div id="circle-position-wrap">
+                <div id="blue-circle"></div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <h3 id="megapower__title-1" class="megapower__title-1 text_xxl animation_state_initial animation animation__static-element">MEGAМОЩЬ</h3>
+        </div>
+
+        <div class="presentation__slide">
+            <p id="megapower__title-2" class="megapower__title-2 text_md animation_state_initial">в миникорпусе.</p>
+        </div>
+
+        <div class="presentation__slide mega-features">
+            <div class="mega-features__main">
+                <h3 class="mega-features__title animation_state_initial animation">Флагман линейки &mdash; там<br>где нужна гибкость</h3>
+                <p class="mega-features__description animation_state_initial animation">Обеспечивает конфигурацию под любую задачу.</p>
+        
+                <div id="mega-features__simcard" class="simcard mega-features__simcard animation_state_initial animation">
+                    <div class="simcard__item simcard__item_left">
+                        <p>2G</p>
+                    </div>
+        
+                    <div class="simcard__item simcard__item_right">
+                        <p>LTE</p>
+                    </div>
+                </div>
+        
+                <div class="mega-features__list animation_state_initial animation">
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">2 SIM карты</p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">Единое ПО конфигурации <br> для&nbsp;всей линейки Mega</p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">16 проводных <br> охранных шлейфов</p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">Ethernet, WiFi</p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">Подключение 64 датчиков на&nbsp;частоте 868 МГц</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mega-features__images animation_state_initial animation">
+            <div class="mega-features__image-container">
+                <!--<img class="mega-features__image mega-features__image-main" src="./img/mega-light-1600px_dark.png" alt="">-->
+                <div class="mega-features__image mega-features__image-main">
+                    <img src="./img/flagman-1600px.png" alt="">
+                    <div class="mega-features__gradient mega-features__gradient_ext-1-2 animation_state_initial animation"></div>
+                    <div class="mega-features__gradient mega-features__gradient_ext-3-4 animation_state_initial animation"></div>    
+                </div>
+            </div>
+            <div class="mega-features__image-container mega-features__image-container_center">
+                <img id="mega-features__image-ext-1" class="mega-features__image mega-features__image-ext-1" src="./img/ext1-1600px.png" class="s5-mega-img" alt="">
+            </div>
+            <div class="mega-features__image-container mega-features__image-container_center">
+                <img id="mega-features__image-ext-2" class="mega-features__image mega-features__image-ext-2" src="./img/ext2-1600px.png" class="s5-mega-img" alt="">
+            </div>
+            <div class="mega-features__image-container mega-features__image-container_center">
+                <img id="mega-features__image-ext-3" class="mega-features__image mega-features__image-ext-3" src="./img/ext3-1600px.png" class="s5-mega-img" alt="">
+            </div>
+            <div class="mega-features__image-container mega-features__image-container_center" id="ext4-wrap">
+                <img id="mega-features__image-ext-4" class="mega-features__image mega-features__image-ext-4" src="./img/ext4-1600px.png" class="s5-mega-img" alt="">
+            </div>
+        </div>
+
+        <div class="mega-features__gradient mega-features__gradient_close-up animation_state_initial animation"></div>
+        <div class="mega-features__gradient mega-features__gradient_darken animation_state_initial animation"></div>
+
+        <div class="presentation__slide">
+            <div class="mega-features__main mega-features__main_bottom">
+                <div class="mega-features__list-2 animation_state_initial animation">
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">Подключение 2 исполнительных устройств 12&nbsp;В&nbsp;170&nbsp;мА
+                            (открытый&nbsp;коллектор)</p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">
+                            Подключение считывателей
+                            <span class="block-desktop">Touch&nbsp;Memory,</span>
+                            <span class="block-desktop">RFID,&nbsp;NFC</span>
+                        </p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">
+                            Цифровая адресная шина
+                            <span class="block-desktop">Подключение&nbsp;клавиатур</span>
+                            <span class="block-desktop">Подключение&nbsp;реле</span>
+                        </p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">
+                            Универсальный&nbsp;корпус
+                            <span class="block-desktop">под&nbsp;АКБ&nbsp;от&nbsp;1.2&nbsp;Ач</span>
+                            <span class="block-desktop">До&nbsp;7&nbsp;Ач</span>
+                        </p>
+                    </div>
+        
+                    <div class="mega-features__item">
+                        <div class="mega-features__icon mega-features__icon_border"></div>
+                        <p class="mega-features__label">
+                            Блок&nbsp;питания
+                            <span class="block-desktop">2.5&nbsp;А&nbsp;12&nbsp;B</span>
+                            <span class="block-desktop">в&nbsp;комплекте</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-abilities-1" class="mega-abilities animation_state_initial animation">
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Выбери свой канал</b>
+                        <p class="mega-abilities__description">Mega уже в штатной комплектации позволяет
+                            <span class="block-desktop">организовать минимум 3 канала связи.</span>
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-2gsm.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-lan.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-wifi.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Управляй и настраивай</b>
+                        <p class="mega-abilities__description">
+                            Можно сконфигурировать настройки удалённо,
+                            <span class="block-desktop">без выезда инженера.</span>
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-touch.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-engine.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Надёжное питание</b>
+                        <p class="mega-abilities__description">
+                            Прибор сразу комплектуется надёжным блоком питания.
+                            <span class="block-desktop">Резервная АКБ позволит работать без основного</span>
+                            <span class="block-desktop">питания до 96 часов.</span>
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-battery.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-accumulator.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-abilities-2" class="mega-abilities animation_state_initial animation">
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Максимальная ёмкость ситемы для максимальных объектов</b>
+                        <p class="mega-abilities__description">
+                            Когда не хватает 16 проводных шлейфов, просто подключи расширитель беспроводного канала и вот уже дополнительно 64 зоны.
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-shield.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-64.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">
+                            Возможность комбинировать - универсально
+                        </b>
+                        <p class="mega-abilities__description">
+                            Можно сконфигурировать платы внутри корпуса так, как именно вам удобно. Просто установи их на другие посадочные места, они универсальны.
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-combination.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">
+                            Автоматизируй
+                        </b>
+                        <p class="mega-abilities__description">
+                            Создавай собственнную автоматизацию и сценарии. Встроенные выходы. Подключение интелектуального реле.
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-clocks.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-engine.svg" alt="" class="abilities-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-abilities-3" class="mega-abilities animation_state_initial animation">
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Модем</b>
+                        <p class="mega-abilities__description">Используй тот вариант, что требуется на объекте.</p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-2g.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-lte.svg" alt="" class="abilities-icon">
+                    </div>
+                    <p class="mega-abilities__description-2"></p>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">Управление объектом</b>
+                        <p class="mega-abilities__description">
+                            Доступно максимальное количество вариантов для управления доступом на объект.
+                        </p>
+                    </div>
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-nfc.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-touch.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-motor.svg" alt="" class="abilities-icon">
+                        <img src="./img/icons/circle-keyboard.svg" alt="" class="abilities-icon">
+                    </div>
+    
+                    <p class="mega-abilities__description-2">
+                        Считыватели, брелоки, клавиатуры<br>
+                        Приложение на смартфоне, NFS приложение
+                    </p>
+                </div>
+    
+                <div class="mega-abilities__item">
+                    <div class="abilities--text-container">
+                        <b class="mega-abilities__title">
+                            Пожарный сертификат
+                        </b>
+                        <p class="mega-abilities__description">
+                            Совсем скоро.
+                        </p>
+                    </div>
+    
+                    <div class="abilities--icons-container">
+                        <img src="./img/icons/circle-fire.svg" alt="" class="abilities-icon">
+                    </div>
+                    <p class="mega-abilities__description-2"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-features__intertitle-1" class="intertitle animation_state_initial animation">
+                <p class="text_lg">
+                    Бескомпромиссность выбора.
+                    <span class="text_blue">Больше нет нерешаемых задач</span>
+                </p>
+                <p class="text_xs intertitle__bottom">
+                    Подключение и настройка новых функций за секунды. Что может быть быстрее?
+                </p>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-features__intertitle-2" class="intertitle">
+                <p id="mega-features__intertitle-text-1" class="text_lg animation_state_initial animation">
+                    Создавая новую линейку, мы&nbsp;предпочли сделать
+                    <span class="text_blue">лучшее из&nbsp;возможного</span>
+                </p>
+                <p id="mega-features__intertitle-text-2" class="text_xs intertitle__bottom animation_state_initial animation">
+                    Цените свое время и свой ресурс - при любом изменении просто расширьте функции прибора.
+                </p>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-features__intertitle-3" class="intertitle">
+                <p id="mega-features__intertitle-text-3" class="text_lg animation_state_initial animation">
+                    MEGAмодуль&nbsp;-&nbsp;<span class="text_blue">всего одно движение</span>
+                    для сложных решений
+                </p>
+                <p id="mega-features__intertitle-text-4" class="text_xs intertitle__bottom animation_state_initial animation">
+                    Нехватка длины канала. Забитый склад. Ретрансляторы. Забудьте о&nbsp;них!
+                </p>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div id="mega-extension-1" class="two-columns__left">
+                    <div>
+                        <div id="extensions-text1-part1" class="animation_state_initial animation">
+                            <h4 class="two-columns__title">Модуль расширения радиоканала 868</h4>
+                            <p class="two-columns__text-large">
+                                Решение, не&nbsp;имеющее аналогов.
+                                <span class="text_blue">Стены &mdash; для&nbsp;вас не&nbsp;помеха.</span>
+                            </p>
+                        </div>
+
+                        <div id="extensions-text1-part2" class="animation_state_initial animation">
+                            <p class="mega-extensions__text-2 two-columns__text-small">
+                                <b>Расстояния &mdash; только для&nbsp;преодоления.</b>
+                                Мы сделали возможной передачу сигнала датчик-прибор на&nbsp;расстоянии 5000&nbsp;м. Без&nbsp;ретрансляторов.
+                                <span class="additional-text">5-6 капитальных перекрытий &mdash; именно такая пробиваемость радиоканала.</span>
+                            </p>
+                        </div>
+                        
+                        <div id="extensions-text1-part3" class="animation_state_initial animation">
+                            <div class="mega-extensions__connecting">
+                                <img src="./img/icons/square-64.svg" alt="" class="fact--img">
+                                <div class="mega-extensions__connecting-text-container">
+                                    <p class="mega-extensions__connecting-text">Подключение 64 датчиков на&nbsp;частоте 868 МГц</p>
+                                    <p class="mega-extensions__connecting-or">или 32 датчиков на&nbsp;частоте 433 МГц</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="extensions-text1-part4" class="animation_state_initial animation">
+                        <p class="mega-extensions__text-3">Без&nbsp;преград.</p>
+                        <p class="mega-extensions__text-4">Расширители приобретаются отдельно и не&nbsp;входят в&nbsp;штатную комплектацию прибора Mega<sup>*</sup>.</p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div id="mega-extension-2" class="two-columns__left">
+                    <div>
+                        <div id="extensions-text2-part1" class="animation_state_initial animation">
+                            <h4 class="two-columns__title">Модуль расширения радиоканала 433</h4>
+                            <p class="two-columns__text-large">
+                                Классика, как вы и&nbsp;хотели.
+                                <span class="text_blue">Когда нет смысла платить за&nbsp;лишнее.</span>
+                            </p>
+                            <p class="mega-extensions__text-2 two-columns__text-small">
+                                Используйте классический радиоканал для&nbsp;решения локальной задачи, будь то небольшая квартира, студия или офис.
+                                В&nbsp;случае препятствия вам всегда поможет наш ретранслятор.
+                            </p>
+                        </div>
+    
+                        <div id="extensions-text2-part2" class="animation_state_initial animation">
+                            <div class="mega-extensions__connecting">
+                                <img src="./img/icons/square-32.svg" alt="" class="fact--img">
+                                <div class="mega-extensions__connecting-text-container">
+                                    <p class="mega-extensions__connecting-text">Подключение 32 датчиков на&nbsp;частоте 433 МГц</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="extensions-text2-part3" class="animation_state_initial animation">
+                        <p class="mega-extensions__text-3">Ничего лишнего.</p>
+                        <p class="mega-extensions__text-4">Расширители приобретаются отдельно и не&nbsp;входят в&nbsp;штатную комплектацию прибора Mega<sup>*</sup>.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div id="mega-extension-3" class="two-columns__left animation_state_initial animation">
+                    <div>
+                        <h4 class="two-columns__title">Модуль расширения WI-FI</h4>
+                        <p id="mega-extensions__text-1" class="two-columns__text-large">
+                            Несмотря на&nbsp;наличие штатного Ethernet,
+                            <span class="text_blue">не&nbsp;ограничивайте себя.</span>
+                        </p>
+                        <p id="mega-extensions__text-2" class="two-columns__text-small">
+                            Оцените, что вам больше по душе и бюджету: провести патч-корд, или подключить
+                            наш расширитель Wi-Fi для уверенного приёма сигнала от беспроводной сети на объекте.
+                        </p>
+    
+                        <div class="mega-extensions__connecting">
+                            <img src="./img/icons/square-wifi.svg" alt="" class="fact--img">
+                            <div class="mega-extensions__connecting-text-container">
+                                <p class="mega-extensions__connecting-text">Подключение расширителя Wi-Fi</p>
+                                <p class="mega-extensions__connecting-or">или RS-485</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="mega-extensions__text-3">Элементарно.</p>
+                        <p class="mega-extensions__text-4">Расширители приобретаются отдельно и не&nbsp;входят в&nbsp;штатную комплектацию прибора Mega<sup>*</sup>.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div id="mega-extension-4" class="two-columns__left animation_state_initial animation">
+                    <div>
+                        <h4 class="two-columns__title">Умная энергия. RS-485</h4>
+                        <p class="mega-extensions__text-1 two-columns__text-large">
+                            Казалось бы, причём тут счётчики электроэнергии?
+                        </p>
+                        <p class="mega-extensions__text-2 two-columns__text-small">
+                            <b>А они важны,</b> особенно когда вы сможете удалённо снять с них
+                            показания нашим прибором и передать в систему учёта электроэнергии.
+                            Разве это не отличная возможность привлечь искушённых клиентов? Ну или просто
+                            подключить стороннее оборудование по 485 шине данных.
+                        </p>
+    
+                        <div class="mega-extensions__connecting">
+                            <img src="./img/icons/square-wifi.svg" alt="" class="fact--img">
+                            <div class="mega-extensions__connecting-text-container">
+                                <p class="mega-extensions__connecting-text">Подключение расширителя RS-485</p>
+                                <p class="mega-extensions__connecting-or">или Wi-Fi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="mega-extensions__text-3">Умная энергия.</p>
+                        <p class="mega-extensions__text-4">Расширители приобретаются отдельно и не&nbsp;входят в&nbsp;штатную комплектацию прибора Mega<sup>*</sup>.</p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div id="mega-features__intertitle-4" class="intertitle animation_state_initial animation">
+                <p class="text_lg">
+                    А ещё мы сразу комплектуем прибор <span class="text_blue">надёжным блоком питания</span>
+                </p>
+                <p class="text_xs intertitle__bottom">
+                    Прошёл все необходимые испытания при сертификации CE.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-case" class="section_white">
+    <div class="presentation__sticky">
+        <div id="case-slide-1" class="presentation__slide animation_state_initial animation animation__static-element">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <h3 class="two-columns__title text_fw_400">Корпус</h3>
+                    <p class="two-columns__text-large">
+                        Безупречный стиль <br>
+                        и&nbsp;функциональность
+                    </p>
+                    <p class="two-columns__text-small">
+                        <b>Именно это воплощает в себе абсолютно новое корпусное исполнение, единое для всех устройств. </b>
+                        Мы считаем, что в нашем бизнесе, размер - имеет значение, и чем он меньше, тем его выгода очевиднее
+                    </p>
+    
+                    <div class="mega-case__tag-list">
+                        <span class="mega-case__tag">Экономия</span>
+                        <span class="mega-case__tag">Надежность</span>
+                        <span class="mega-case__tag">Гибкость установки</span>
+                        <span class="mega-case__tag">Отсутствие лишнего</span>
+                    </div>
+    
+                    <button class="mega-case__button">Оформить заказ</button>
+    
+                    <div class="mega-case__hint">
+                        <div>
+                            <b class="hint--title">Посмотрите разные комплектации MEGA</b>
+                            <p class="hint--description">Используйте переключатель справа</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="two-columns__right">
+                    <div class="product-slider">
+                        <div class="swiper-wrapper">
+                            <!--<div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <source srcset="./img/mega-light-1400px.png" media="(min-width: 1400px)">
+                                    <source srcset="./img/mega-light-780px.png" media="(max-width: 1400px) and (min-width: 500px)">
+                                    <img src="./img/mega-light-480px.png" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Модульный охранный прибор</p>
+                                </div>
+                            </div>
+        
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <source srcset="./img/mega-light-1400px.png" media="(min-width: 1400px)">
+                                    <source srcset="./img/mega-light-780px.png" media="(max-width: 1400px) and (min-width: 500px)">
+                                    <img src="./img/mega-light-480px.png" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Модульный охранный прибор</p>
+                                </div>
+                            </div>-->
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/1_480px.png" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + 868 + LAN</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/2_480px.png" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + 433 + LAN</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/3_480px.jpg" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + LAN</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/4_480px.jpg" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + 485 + LAN</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/5_480px.jpg" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + RT1 + LAN</p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide product-slide">
+                                <picture class="product-slide--img">
+                                    <img src="./img/slider/6_480px.jpg" alt="">
+                                </picture>
+        
+                                <div class="product-slide--container">
+                                    <b class="product-slide--title">Mega</b>
+                                    <p class="product-slide--description">Mega + RT3 + LAN</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next navigation-btn navigation-btn_next">
+                            <img src="./img/icons/slider-arrow.svg" alt="">
+                        </div>
+                        <div class="swiper-button-prev navigation-btn navigation-btn_prev">
+                            <img src="./img/icons/slider-arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-case-2" class="section section_white section-product-scheme animation-section">
+    <div class="container-85">
+        <div class="text-container">
+            <h2 class="product-scheme--title animation_state_initial animation animation__static-element">
+                Мы сделали в&nbsp;2&nbsp;раза более компактный корпус
+            </h2>
+
+            <p class="product-scheme--description animation_state_initial animation animation__static-element">
+                В который встроится батарея любой емкости. Гармония линий и возможностей не имеет аналогов на рынке систем безопасности. Убедитесь сами. Если, конечно, не хотите довольствоваться только стилем и оттенками цветов.
+                <br><br>
+                А ещё, у нас не надо демонтировать платы, мы продумали систему крепления до миллиметра.
+                <br>
+                <b>Все гениальное &mdash; просто.</b>
+            </p>
+        </div>
+
+        <div class="case-video-container">
+            <div class="case-drawings">
+                <div class="drawing drawing-1 animation_state_initial animation">
+                    <div class="drawing-text-wrap"><span class="drawing-1-text">244&nbsp;мм</span></div>
+                </div>
+                <div class="drawing drawing-2 animation_state_initial animation">
+                    <div class="drawing-text-wrap"><span class="drawing-2-text">73&nbsp;мм</span></div>
+                </div>
+                <div class="drawing drawing-3 animation_state_initial animation">
+                    <div class="drawing-text-wrap"><span class="drawing-3-text">176&nbsp;мм</span></div>
+                </div>
+                <div class="drawing drawing-4 animation_state_initial animation">
+                    <div class="drawing-text-wrap"><span class="drawing-4-text">244&nbsp;мм</span></div>
+                </div>
+            </div>
+            <div></div>
+            <video id="case-video" class="case-video" muted playsinline preload="auto" src="./img/case.mp4"></video>
+            <div></div>
+        </div>
+        <!--<div class="product-scheme--img-container">
+            <picture class="product-scheme--img horizontal">
+                <source srcset="./img/mega-from-the-side-500px.png" media="(max-width: 500px)">
+                <source srcset="./img/mega-from-the-side-768px.png" media="(max-width: 768px)">
+                <source srcset="./img/mega-from-the-side-1024px.png" media="(max-width: 1024px)">
+                <source srcset="./img/mega-from-the-side-1400px.png" media="(max-width: 1400px)">
+                <img src="./img/mega-from-the-side-1900px.png" alt="">
+            </picture>
+
+            <picture class="product-scheme--img vertical">
+                <source srcset="./img/mega-from-the-inside-500px.png" media="(max-width: 500px)">
+                <source srcset="./img/mega-from-the-inside-768px.png" media="(max-width: 768px)">
+                <source srcset="./img/mega-from-the-inside-1024px.png" media="(max-width: 1024px)">
+                <source srcset="./img/mega-from-the-inside-1400px.png" media="(max-width: 1400px)">
+                <img src="./img/mega-from-the-inside-1900px.png" alt="">
+            </picture>
+        </div>-->
+    </div>
+</section>
+
+<section id="section-genius" class="">
+    <div class="presentation__sticky">
+            <div class="presentation__slide">
+                <div class="intertitle">
+                    <div id="mega-genius__text-1" class="animation_state_initial animation">
+                        <p class="text_lg">Гениальное - просто</p>
+                        <p class="text_sm" style="margin-top: 25px;">Универсальный, компактный, красивый.</p>    
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="mega-case__image-container">
+                <div class="mega-case__canvas animation_phase-0 animation">
+                    <img class="mega-case__img-1 animation_state_initial animation" src="./img/case-section/case-0.png" alt="">
+                    <img class="mega-case__img-2 animation_state_initial animation" src="./img/case-section/case-3.png" alt="">
+                    <img class="mega-case__img-3 animation_state_initial animation" src="./img/case-section/case-4.png" alt="">
+                    <div class="mega-case__combine animation_state_initial animation">
+                        <img class="mega-case__img-4 animation_phase-0 animation" src="./img/case-section/case-0.png" alt="">
+                        <img class="mega-case__img-5 animation_phase-0 animation" src="./img/mega bp.png" alt="">
+                        <img class="mega-case__img-6 animation_phase-0 animation" src="./img/mega rele.png" alt="">
+                    </div>
+                    <img class="mega-case__img-7 animation_state_initial animation" src="./img/case-section/case-5.png" alt="">
+                    <div class="mega-case__holes-container">
+                        <div class="mega-case__hole-1"></div>
+                        <div class="mega-case__hole-2"></div>
+                        <div class="mega-case__hole-3"></div>
+                    </div>
+                    <div class="mega-case__marks-container">
+                        <div class="mega-case__mark-1"></div>
+                        <div class="mega-case__mark-1"></div>
+                        <div class="mega-case__mark-1"></div>
+                    </div>
+                    <div class="mega-case__marks-container-2">
+                        <div class="mega-case__mark-1"></div>
+                        <div class="mega-case__mark-1"></div>
+                        <div class="mega-case__mark-1"></div>
+                    </div>
+                    <div class="mega-case__marks-container-3">
+                        <div class="mega-case__mark-2"></div>
+                        <div class="mega-case__mark-2"></div>
+                    </div>
+                    <div class="mega-case__marks-container-4">
+                        <div class="mega-case__mark-2"></div>
+                        <div class="mega-case__mark-2"></div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="mega-case__image-container">
+                <img  class="mega-case__image" src="./img/mega-case-1900px.png" class="s5-mega-img" alt="">
+            </div>                
+            <div class="mega-case__image-container mega-case__image-container_center">
+                <img  class="mega-case__image-2" src="./img/mega-corpus-v1-768px.png" class="s5-mega-img" alt="">
+            </div>-->
+            <div class="mega-case__gradient mega-case__gradient_close-up"></div>
+            <!--<div class="mega-features__gradient mega-features__gradient_darken"></div>-->
+
+            <div class="presentation__slide">
+                <div class="mega-features__main mega-features__main_bottom">
+                    <p id="mega-case__text-2" class="mega-case__text-2 text_md animation_state_initial animation">Отличный размер для&nbsp;подведения проводов питания или проводных шлейфов</p>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="mega-features__main mega-features__main_bottom">
+                    <div id="mega-case__text-3" class="mega-case__text-3 animation_state_initial animation">
+                        <p class="text_md">Надежное крепление АКБ к&nbsp;корпусу </p>
+                        <p class="text_xs" style="margin-top: 25px;">Выбери АКБ 1.2 Ач или 7 Ач, а корпус останется.</p>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="two-columns">
+                    <div class="two-columns__left" style="justify-content: center;">
+                        <div id="mega-case__text-4" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">Удобное крепление корпуса к&nbsp;стене</p>
+                            <p class="two-columns__text-small">Можно установить без&nbsp;демонтажа платы прибора</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="two-columns">
+                    <div class="two-columns__left" style="justify-content: center;">
+                        <div id="mega-case__text-5" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">Антенны</p>
+                            <p class="two-columns__text-small">Перфорация для&nbsp;установки антенн. Без&nbsp;проблем.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="two-columns">
+                    <div class="two-columns__left" style="justify-content: center;">
+                        <div id="mega-case__text-5-1" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">Выберите положение</p>
+                            <p class="two-columns__text-small">Возможность разместить антенну сбоку или сверху</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="two-columns">
+                    <div class="two-columns__left" style="justify-content: center;">
+                        <div id="mega-case__text-6" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">Возможность комбинировать &mdash; <span class="text_blue">универсально</span></p>
+                            <p class="two-columns__text-small">Вы можете сконфигурировать платы внутри корпуса так, как удобно именно вам. Просто установите их на&nbsp;другие посадочные места, они универсальны.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__slide">
+                <div class="two-columns">
+                    <div class="two-columns__left" style="justify-content: center;">
+                        <div id="mega-case__text-7" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">Добавьте свой логотип на&nbsp;лицевой панели корпуса</p>
+                            <p class="two-columns__text-small">Это бесплатно</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section id="section-mega-light" class="section section_white presentation mega-light">
+    <div class="presentation__sticky">
+
+        <div id="mega-light__background" class="mega-light__background animation_phase-0 animation"></div>
+
+        <div class="presentation__slide">
+            <div id="mega-light__title" class="mega-light__title animation_state_initial animation animation__static-element">
+                <p class="text_sm">
+                    Проводной и беспроводной
+                </p>
+                <h3 class="text_xxl">
+                    <span class="text_fw_500">MEGA</span>
+                    <span class="text_fw_300">LIGHT</span>
+                </h3>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-light-slide">
+                <div class="mega-light-slide__top">
+                    <img id="mega-light__image-1" class="mega-light__image-1" src="./img/light-1500px-1.png">
+                </div>
+                <div class="mega-light-slide__bottom">
+                    <p id="mega-light__text-1" class="text_md animation_state_initial animation">
+                        Мы убрали всё лишнее
+                    </p>        
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-light-slide">
+                <div class="mega-light-slide__top">
+                    <img id="mega-light__image-2" class="mega-light__image-2" src="./img/light-1500px-2.png">
+                </div>
+                <div class="mega-light-slide__bottom">
+                    <p id="mega-light__text-2" class="text_md animation_state_initial animation">
+                        но сохранили <span class="text_blue">самое главное</span>
+                    </p>        
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-light__left">
+                <div class="mega-light-slide">
+                    <div class="mega-light-slide__top">
+
+                    </div>
+                    <div class="mega-light-slide__bottom">
+                        <p id="mega-light__text-3-left" class="text_md animation_state_initial animation">
+                            Лёгкость
+                        </p>        
+                    </div>
+                </div>
+            </div>
+            <div class="mega-light__right">
+                <div class="mega-light-slide">
+                    <div class="mega-light-slide__top">
+
+                    </div>
+                    <div class="mega-light-slide__bottom">
+                        <p id="mega-light__text-3-right" class="text_md animation_state_initial animation">
+                            выбора
+                        </p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-light__left">
+                <div class="mega-light-slide mega-light-slide_spacious">
+                    <div class="mega-light-slide__top">
+
+                    </div>
+                    <div class="mega-light-slide__bottom">
+                        <div id="mega-light__text-4-left" class="animation_state_initial animation">
+                            <h3 class="text_md fw-500" style="margin: 1.5rem 0 20px;">Mega Light 433</h3>
+                            <p class="text_xs" style="margin-bottom: 35px;">Беспроводной охранный прибор</p>
+                        </div>
+                        <ul id="mega-light__text-5-left" class="mega-light__tag-list animation_state_initial animation" style="margin-bottom: 76px;">
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">Подключение 32 беспроводных датчиков</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">2 SIM карты</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">Подключение NFC, RFID, Touch Memory</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">Адаптер питания 220/12 В</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">Подключение 2-х исполнительных устройств</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-white.svg" alt="">Подключение проводного шлейфа</li>
+                        </ul>        
+                    </div>
+                </div> 
+            </div>
+            <div class="mega-light__right">
+                <div class="mega-light-slide mega-light-slide_spacious">
+                    <div class="mega-light-slide__top">
+
+                    </div>
+                    <div class="mega-light-slide__bottom">
+                        <div id="mega-light__text-4-right" class="animation_state_initial animation">
+                            <h3 class="text_md fw-500" style="margin: 1.5rem 0 20px;">Mega Light</h3>
+                            <p class="text_xs" style="margin-bottom: 35px;">Проводной охранный прибор</p>
+                        </div>
+                        <ul id="mega-light__text-5-right" class="mega-light__tag-list animation_state_initial animation" style="margin-bottom: 76px;">
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">16 проводных охранных шлейфов</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">2 SIM карты</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">Подключение 2-х исполнительных устройств</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">Удаленное обновление</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">Подключение NFC, RFID, Touch Memory</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">Адаптер питания 220/12 В</li>
+                            <li class="mega-light__tag"><img src="./img/icons/charge-black.svg" alt="">Цифровая адресная шина</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mega-light__wired" class="mega-light__wired presentation__slide animation_state_initial animation">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h3 class="two-columns__title">
+                            Проводной
+                        </h3>
+                        <p class="two-columns__text-large">
+                            Несомненно самый экономичный выбор <span class="text_blue">из всей линейки</span>
+                        </p>
+                        <p class="two-columns__text-small">
+                            Мы сделали нечто нереальное: создали максимально бюджетное устройство, с&nbsp;надежным сохранением охранных функций.
+                        </p>
+                        <button class="mega-light__button">Узнать больше</button>
+                    </div>
+                    <div>
+                        <div class="mega-light__simcard-title">
+                            <p>
+                                <span class="fw-600">Mega</span>
+                                <span class="fw-300">Light</span>
+                            </p>
+                            <div class="simcard">
+                                <div class="simcard__item simcard__item_left">2G</div>
+                                <div class="simcard__item simcard__item_right">LTE</div>
+                            </div>
+                        </div>
+                        <p class="mega-light__left-subtitle">Проводной охранный прибор</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mega-light__wireless" class="presentation__slide animation_state_initial animation">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h3 class="two-columns__title">
+                            Беспроводной
+                        </h3>
+                        <p class="two-columns__text-large">
+                            Не оставили ничего лишнего, <span class="text_blue">чтобы сократить ваши расходы</span>
+                        </p>
+                        <p class="two-columns__text-small">
+                            Зачем переплачивать, если все необходимые для охраны объекта функции сохранены.
+                            Такого предложения вы ещё не видели.
+                        </p>
+                        <button class="mega-light__button-2">Узнать больше</button>
+                    </div>
+                    <div>
+                        <div class="mega-light__simcard-title">
+                            <p>
+                                <span class="fw-600">Mega</span>
+                                <span class="fw-300">Light</span>
+                            </p>
+                            <div class="simcard">
+                                <div class="simcard__item simcard__item_left_dark">2G</div>
+                                <div class="simcard__item simcard__item_right_dark">LTE</div>
+                            </div>
+                        </div>
+                        <p class="mega-light__left-subtitle">Беспроводной охранный прибор</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mega-light__buy" class="presentation__slide animation_state_initial animation">
+            <div class="two-columns">
+                <div class="two-columns__left" style="color: rgb(37,37,37);">
+                    <div>
+                        <p class="two-columns__text-large">
+                            Mega Light — экстремально бюджетная классика
+                        </p>
+                        <p class="two-columns__text-small">
+                            Мы создали максимально бюджетное устройство, с надежным сохранением охранных функций. Вам осталось только выбрать.
+                        </p>
+                        <button class="mega-light__button-3">Оформить заказ</button>
+                    </div>
+                    <div>
+                        <p class="text_xs">Рискните найти дешевле. Без компромиссов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-mega-keyboard" class="section_white presentation mega-keyboard">
+    <div class="presentation__sticky">
+        <div class="mega-keyboard__background"></div>
+
+        <div id="mega-keyboard__slogan-1" class="presentation__slide animation_state_initial animation">
+            <p class="text_lg">Когда размер имеет значение</p>
+        </div>
+
+        <div id="mega-keyboard__title" class="presentation__slide animation_state_initial animation">
+            <div>
+                <p class="text_sm">Проводной и беспроводной охранный прибор в корпусе клавиатуры</p>
+                <h3 class="text_xl mega-keyboard__title">Mega Keyboard</h3>    
+            </div>
+        </div>
+
+        <div class="mega-keyboard__images image-dynamic-wrap">
+            <div class="mega-keyboard__image-wrap image-dynamic-wrap">
+                <img id="mega-keyboard__image-inner" class="image-dynamic mega-keyboard__image-inner animation animation_phase-0" src="./img/mega-keyboard-inner.png">
+            </div>
+            <div class="mega-keyboard__image-wrap image-dynamic-wrap">
+                <img id="mega-keyboard__image-front" class="image-dynamic mega-keyboard__image-front animation animation_phase-0" src="./img/mega-keyboard-front.png">
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-keyboard__text-wrap">
+                <p class="mega-keyboard__text-1 text_lg animation_state_initial animation">
+                    Mega Keyboard — тот же “All in one” только еще лучше
+                </p>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-keyboard__text-wrap">
+                <div class="mega-keyboard__text-2 animation_state_initial animation">
+                    <p class="two-columns__title">
+                        Компактно - значит функционально
+                    </p>
+                    <p class="mega-keyboard__text-2-2">
+                        Версия Mega Keyboard - это такая же полнофункциональная и <span class="text_blue">надёжная охранная система, как и другие версии Mega</span>
+                    </p>
+                    <p class="text_xs mega-keyboard__text-2-3">Основное её отличие - цена.  Mega Keyboard и её версия с радиоканалом - это решение позволяющее установить прибор и сразу же получить возможность управления, ведь в прибор встроен корпус клавиатуры.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-keyboard__text-wrap">
+                <div class="mega-keyboard__text-3 animation_state_initial animation">
+                    <p class="text_lg">
+                        Вы получаете сразу готовую охранную систему, остаётся только выбрать тип датчиков - <span class="text_blue">проводные</span> или <span class="text_blue">беспроводные</span>
+                    </p>
+                </div> 
+            </div>
+            
+        </div>
+
+        <div id="mega-keyboard__two-columns" class="presentation__slide animation_state_initial animation">
+            <div class="mega-keyboard__left">
+                <div></div>
+                <div class="mega-keyboard__column-top">
+                    <p class="text_sm">Mega Keyboard</p>
+                    <p class="text_xs mega-keyboard__button">Узнать больше</p>
+                </div>
+                <div class="mega-keyboard__column-bottom">
+                    <div class="mega-keyboard__column-image-wrap">
+                        <img src="./img/keyboard-schema-1-1900px.png" alt="">
+                        <!--<img src="./img/mega-keyboard-inner.png" alt="">
+                        <p class="mega-keyboard__hint mega-keyboard__hint-1">2 SIM карты</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-2">Питание от Li-ion батареи до 12 часов</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-3">Подключение 2 исполнительных устройств 12 В 170 мА (открытый&nbsp;коллектор)</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-4">Возможность установки встроенной антенны. (В штатной комплектации — внешняя)</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-5">Подключение считывателей Touch Memory, RFID, NFC</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-6">8 охранных шлейфов</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="mega-keyboard__right">
+                <div></div>
+                <div class="mega-keyboard__column-top">
+                    <p class="text_sm">Mega Keyboard</p>
+                    <p class="text_xs mega-keyboard__button">Узнать больше</p>
+                </div>
+                <div class="mega-keyboard__column-bottom">
+                    <div class="mega-keyboard__column-image-wrap">
+                        <img src="./img/keyboard-schema-2-1900px.png" alt="">
+                        <!--<img src="./img/mega-keyboard-inner.png" alt="">
+                        <p class="mega-keyboard__hint mega-keyboard__hint-7">Управление прибором из&nbsp;мобильного приложения</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-8">Питание от&nbsp;Li-ion батареи до&nbsp;12&nbsp;часов</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-9">Подключение 32 беспроводных датчиков на&nbsp;частоте 433&nbsp;МГц</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-10">Подключение считывателей Touch Memory, RFID, NFC</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-11">Проводной охранный шлейф</p>
+                        <p class="mega-keyboard__hint mega-keyboard__hint-12">Подключение 2 исполнительных устройств 12&nbsp;В 170&nbsp;мА (открытый коллектор)</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="mega-keyboard__specials animation_state_initial animation section-features">
+                <div class="container">
+                    <div class="text-container">
+                        <h2 class="features--title">Заголовок про особенности</h2>
+                        <p class="features--description">
+                            <b> И тут текст про особенности в две три строчки.</b>
+                            <br>
+                            Mega Keyboard и её версия с радиоканалом -
+                        </p>
+                    </div>
+            
+                    <div class="features-slider">
+                        <div class="swiper-wrapper features-slider--wrapper">
+                            <div class="swiper-slide features-slide green">
+                                <div class="features-slide--img-container">
+                                    <img src="./img/features-slide--electronic-board.png" alt="">
+                                </div>
+            
+                                <div class="features-slide--text-container">
+                                    <p class="features-slide--hint">беспроводная система</p>
+                                    <b class="features-slide--title">Классический радиоканал</b>
+                                    <p class="features-slide--description">
+                                        <span class="opacity-75">Используйте классический радиоканал для решения локальной задачи, будь то небольшая квартира, студия или офис.</span>
+                                        <b>В случае серьезного препятствия всегда поможет наш ретранслятор.</b>
+                                    </p>
+                                </div>
+                                <button class="features-slide--button">Показать всё</button>
+                            </div>
+            
+                            <div class="swiper-slide features-slide blue">
+                                <div class="features-slide--img-container">
+                                    <img src="./img/features-slide--currency.png" alt="">
+                                </div>
+            
+                                <div class="features-slide--text-container">
+                                    <p class="features-slide--hint">лёгкий Монтаж</p>
+                                    <b class="features-slide--title">Повод экономить</b>
+                                    <p class="features-slide--description">
+                                    <span class="opacity-75">
+                                        Мы предусмотрели самые комфортные условия для работы ваших сотрудников. Не повод ли это экономить при установке?
+                                    </span>
+                                        <b> Ведь она теперь существенно упрощена, за счет нового подхода по установке и подключения проводов.</b>
+                                    </p>
+                                </div>
+            
+                                <button class="features-slide--button">Показать всё</button>
+                            </div>
+            
+                            <div class="swiper-slide features-slide orange">
+                                <div class="features-slide--img-container">
+                                    <img src="./img/features-slide--calc.png" alt="">
+                                </div>
+            
+                                <div class="features-slide--text-container">
+                                    <p class="features-slide--hint">комплектация</p>
+                                    <b class="features-slide--title">Готов из коробки</b>
+                                    <p class="features-slide--description">
+                                    <span class="opacity-75">
+                                        АКБ типа 18650 обеспечит до 8 часов резервного питания, мы позаботились об этом, он уже в комплекте вместе с компактным адаптером питания.
+                                    </span>
+                                    </p>
+                                </div>
+                                <button class="features-slide--button">Показать всё</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="intertitle mega-keyboard__text-4 animation_state_initial animation">
+                <div class="">
+                    <p class="text_lg">Ценность не определят стоимость</p>
+                    <p class="text_xs" style="margin-top: 25px;">Именно таким был наш манифест при создании нового предложения для охранных предприятий.</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns mega-keyboard__buy animation_state_initial animation">
+                <div class="two-columns__left">
+                    <div class="">
+                        <h4 class="two-columns__title">Mega keyboard / mega keyboard 433</h4>
+                        <p class="two-columns__text-large">
+                            Максимально бюджетное устройство, с надежным сохранением охранных функций
+                        </p>
+                        <p class="two-columns__text-small">
+                            Ведь только внимание к&nbsp;деталям рождает выдающиеся технологии. А новый подход к&nbsp;цене сохраняет ваши ресурсы.
+                        </p>
+                        <button class="mega-light__button-3">Оформить заказ</button>
+                    </div>
+                </div>
+                <div class="mega-keyboard__buy-images two-columns__right">
+                    <!--<div class="mega-keyboard__buy-image-wrap">
+                        <img class="mega-keyboard__buy-image-inner animation_state_initial animation" src="./img/mega-keyboard-inner.png" alt="">
+                    </div>-->
+                    <div class="mega-keyboard__buy-image-wrap">
+                        <img class="mega-keyboard__buy-image-front animation_state_initial animation" src="./img/mega-keyboard-front.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-software-1" class="section section_black presentation software">
+    <div class="presentation__sticky">
+        <div class="presentation__slide software__title-screen animation_state_initial animation animation__static-element">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h4 class="two-columns__title">Программа настройки</h4>
+                        <p class="two-columns__text-large">
+                            Различное ПО на устройствах всегда было фатальной проблемой и головной болью для современного предприятия
+                        </p>
+                        <p class="two-columns__text-small">
+                            Теперь команде инженеров не&nbsp;нужно запоминать, как реализованы функции в&nbsp;каждом устройстве. <span style="color: rgba(255, 255, 255, 0.66);">Ведь в Mega все настраивается одинаково просто.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-software-2" class="section section_white software">
+    <div class="presentation__slide">
+        <div>
+            <img class="software__screenshot" src="./img/screenshot.png" alt="">
+            <p class="software__screenshot-desc text_xs">Единая программа настройки для всей линейки устройств Mega. Настраивайте и обновляйте приборы удалённо, без выезда на объект.</p>    
+        </div>
+    </div>
+</section>
+    
+<section id="section-software-3" class="section section_black software presentation">
+    <div class="presentation__sticky">
+        <div class="software__panel-wrap">
+            <img class="software__panel" src="./img/admin-panel-pc-1400px.png">
+        </div>
+        <div class="software__tab-wrap">
+            <img class="software__tab animation_state_initial animation" src="./img/admin-panel-tablet-1900px.png">
+        </div>
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h4 id="software__left-title" class="two-columns__title animation_state_initial animation">Пультовая для ЧОП</h4>
+                        <div id="software__left-text-1" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                <span class="text_blue">Ноль</span> - ровно столько вы&nbsp;заплатите за&nbsp;пультовую систему
+                            </p>
+                            <p class="two-columns__text-small">
+                                не ограниченную по количеству объектов и входящим потокам от сторонних приборов, а эффект от её использования будет на максимуме. 
+                            </p>
+                            <p class="two-columns__text-small">
+                                Для охранного предприятия специализированная пультовая программа предоставляется абсолютно бесплатно. Вы не ограниченны никаким количеством объектов.  И да, за подключение сторонних приборов вы тоже не платите. 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h4 id="software__left-title" class="two-columns__title animation_state_initial animation">&nbsp;</h4>
+                        <div id="software__left-text-2" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                <span class="text_blue">Защита бизнеса</span> - все приборы заблокированы на вас 
+                            </p>
+                            <p class="two-columns__text-small">
+                                Не стоит переживать о проблемах которые мы решили за вас - мы специально разработали механизм, позволяющий заблокировать прибор только на ваш пульт. Только вы сможете иметь полноценный доступ, а значит “уход” объекта уже не так соблазнителен для конкурента. 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h4 id="software__left-title" class="two-columns__title">&nbsp;</h4>
+                        <div id="software__left-text-3" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                Реагируйте и управляйте
+                            </p>
+                            <p class="two-columns__text-small">
+                                Наша система позволит вам не только реагировать на тревоги, обрабатывать события, но и удалённо настраивать, блокировать и обновлять приборы.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="two-columns">
+                <div class="two-columns__left">
+                    <div>
+                        <h4 id="software__left-title" class="two-columns__title">&nbsp;</h4>
+                        <div id="software__left-text-4" class="animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                ГБР - там где она нужна
+                            </p>
+                            <p class="two-columns__text-small">
+                                Группа быстрого реагирования находится там где она нужна для оперативной реакции, предотвращения пресутпления. Наше приложение позволит вам не только назначать ГБР на тревогу, но и контролировать их маршрут, время прибытия и назначать на выезд ближайшую машину к объекту. 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p id="software__left-text-5" class="text_xs">У вас всё под контролем - именно такой девиз надежного охранного предприятия. А мы вам поможем его осуществить.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="section-mobile-app" class="section section_white mobile-app presentation">
+    <div class="presentation__sticky">
+        <div class="presentation__slide">
+            <div class="mobile-app__container">
+                <div class="mobile-app__top animation_state_initial animation animation__static-element">
+                    <p class="two-columns__title">Приложение пользователя</p>
+
+                    <div class="mobile-app__text-wrap">
+                        <div class="mobile-app__text-1 animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                <span class="progress-text progress-text-1">Управляй</span>
+                            </p>
+                            <p class="two-columns__text-small">Ставьте или снимайте с&nbsp;охраны вашу сигнализацию с&nbsp;помощью мобильного приложения.</p>
+                        </div>
+                        <div class="mobile-app__text-2 animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                <span class="progress-text progress-text-2">Автоматизируй</span>
+                            </p>
+                            <p class="two-columns__text-small">Настраивайте сценарии автоматизации, перекрывайте воду, включайте свет - где как пожелаешь, а&nbsp;мы в&nbsp;этом поможем.</p>
+                        </div>
+                        <div class="mobile-app__text-3 animation_state_initial animation">
+                            <p class="two-columns__text-large">
+                                <span class="progress-text progress-text-3">Контролируй</span>
+                            </p>
+                            <p class="two-columns__text-small">Держите всё на&nbsp;контроле, будь то температура или снятие объекта с&nbsp;охраны сотрудником.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-app__bottom animation_state_initial animation animation__static-element">
+                    <img src="./img/mobile-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-final" class="section section_white section-products final presentation">
+    <div class="presentation__sticky">
+        <div class="presentation__slide">
+            <div class="final__text-1 animation_state_initial animation">
+                <p class="text_lg">Наша миссия &mdash; задавать высокие стандарты в&nbsp;безопасности</p>
+                <p class="text_xs" style="margin-top: 25px;">Именно поэтому устройства Mega отличает бескомпромиссная выгода при&nbsp;эксплуатации.</p> 
+            </div>
+        </div>
+
+        <div class="presentation__slide">
+            <div class="final__text-2 animation_state_initial animation">
+                <p class="text_lg">Всё потому, что мы производим оборудование на собственном заводе, гарантируя более длительный срок службы своего оборудования.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="final__offer animation_state_initial animation">
+        <div class="container">
+            <div class="text-container">
+                <h2 class="title title_md">Выбери свою Mega - новая линейка оборудования
+                    во вселенной RITM.</h2>
+    
+                <p class="products--description">Подлинная эволюция на secure-рынке.</p>
+            </div>
+    
+            <div class="catalog-slider">
+                <div class="catalog-container swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="catalog-item">
+                            <div class="catalog-item--inner">
+                                <div class="catalog-item--img">
+                                    <img src="./img/mega-440px.png" alt="">
+                                </div>
+    
+                                <div class="catalog-item--info">
+                                    <div class="catalog-item--header">
+                                        <b class="text text_xlg">Mega</b>
+                                        <p class="text text_sm mt-05">Модульный охранный прибор</p>
+                                    </div>
+    
+                                    <div class="catalog-item--container">
+                                        <ul class="catalog-item--property">
+                                            <li class="property--item">
+                                                <p class="text text_sm">2 SIM карты</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">16 проводных шлейфов</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="catalog-item--container">
+                                <button class="catalog-item--button button button_light button_lg w-100">
+                                    <p class="text text_sm">Купить</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="catalog-item">
+                            <div class="catalog-item--inner">
+                                <div class="catalog-item--img">
+                                    <img src="./img/mega-light-480px.png" alt="">
+                                </div>
+    
+                                <div class="catalog-item--info">
+                                    <div class="catalog-item--header">
+                                        <b class="text text_xlg">Mega Light </b>
+                                        <p class="text text_sm mt-05">Проводной охранный прибор</p>
+                                    </div>
+    
+                                    <div class="catalog-item--container">
+                                        <ul class="catalog-item--property">
+                                            <li class="property--item">
+                                                <p class="text text_sm">2 SIM карты</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">16 проводных шлейфов</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="catalog-item--container">
+                                <button class="catalog-item--button button button_light button_lg w-100">
+                                    <p class="text text_sm">Узнать больше</p>
+                                    <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="catalog-item">
+                            <div class="catalog-item--inner">
+                                <div class="catalog-item--img">
+                                    <img src="./img/mega-light-433-430px.png" alt="">
+                                </div>
+    
+                                <div class="catalog-item--info">
+                                    <div class="catalog-item--header">
+                                        <b class="text text_xlg">Mega Light 433</b>
+                                        <p class="text text_sm mt-05">Беспроводной охранный прибор</p>
+                                    </div>
+    
+                                    <div class="catalog-item--container">
+                                        <ul class="catalog-item--property">
+                                            <li class="property--item">
+                                                <p class="text text_sm">2 SIM карты</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">16 проводных шлейфов</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="catalog-item--container">
+                                <button class="catalog-item--button button button_light button_lg w-100">
+                                    <p class="text text_sm">Узнать больше</p>
+                                    <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="catalog-item">
+                            <div class="catalog-item--inner">
+                                <div class="catalog-item--img">
+                                    <img src="./img/mega-keyboard-500px.png" alt="">
+                                </div>
+    
+                                <div class="catalog-item--info">
+                                    <div class="catalog-item--header">
+                                        <b class="text text_lg">Mega Keyboard</b>
+                                        <p class="text text_sm mt-05">Охранный прибор в корпусе клавиатуры проводной/беспроводной</p>
+                                    </div>
+    
+                                    <div class="catalog-item--container">
+                                        <ul class="catalog-item--property">
+                                            <li class="property--item">
+                                                <p class="text text_sm">2 SIM карты</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-simcard-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">16 проводных шлейфов</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/shield-black.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+    
+                                            <li class="property--item">
+                                                <p class="text text_sm">Адаптер питания 1А 12B</p>
+                                                <div class="text-center">
+                                                    <img src="./img/icons/icon-battery.svg" class="property--icon" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="catalog-item--container">
+                                <button class="catalog-item--button button button_light button_lg w-100">
+                                    <p class="text text_sm">Узнать больше</p>
+                                    <svg class="button--cart" viewBox="0 0 11 8" width="11" height="8">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-accessories" class="section section_white accessories">
+    <div class="container">
+        <div class="text-container">
+            <h2 class="accessories__title text_lg">Аксессуары</h2>
+            <p class="accessories__subtitle text_xs text_fw_400">Пара слов буквально о них</p>
+        </div>
+
+        <div class="accessories__catalog">
+            <div class="accessories-item" data-popup="accessories-1">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик движения RMD1</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный извещатель охранный объемный с защитой от животных до 40 кг.
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433/868</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-1.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+
+            <div class="accessories-item">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик разбития стекла RGD</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный извещатель охранный звуковой
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433/868</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-2.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+
+            <div class="accessories-item">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик протечки воды RWD2</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный датчик контроля протечки воды и затопления
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-3.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+
+            <div class="accessories-item">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик движения RMD1</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный извещатель охранный объемный с защитой от животных до 40 кг.
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433/868</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-1.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+
+            <div class="accessories-item">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик разбития стекла RGD</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный извещатель охранный звуковой
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433/868</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-2.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+
+            <div class="accessories-item">
+                <div class="accessories-item__container">
+                    <p class="accessories-item__title">Датчик протечки воды RWD2</p>
+                    <p class="accessories-item__description">
+                        Беспроводной радиоканальный датчик контроля протечки воды и затопления
+                    </p>
+
+                    <p class="accessories-item__version">
+                        Радиоканальная версия:<br>
+                        <b>433</b>
+                    </p>
+                </div>
+
+                <div class="accessories-item__img-container">
+                    <img src="./img/accessories-3.png" alt="" class="accessories-item__img">
+                </div>
+            </div>
+        </div>
+
+        <button class="accessories__button">
+            Показать ещё
+        </button>
+
+    </div>
+</section>
+<footer class="section section_black">
+    <div class="container">
+        <div class="footer-offer footer--container">
+            <div class="footer-offer--container">
+                <h1 class="footer-offer--title">Попробуй прямо сейчас. Выбери свое решение.</h1>
+                <p class="footer-offer--description">Оставьте заявку или позвоните, и мы сами всё за вас заполним.</p>
+            </div>
+
+            <button class="button button_white footer-offer--button">
+                Оформить заказ
+            </button>
+        </div>
+
+        <div class="footer--container footer-contacts-and-menu">
+            <div class="footer-contacts">
+                <div class="footer-contacts--item">
+                    <p class="footer-contacts--description">Санкт-Петербург <br> пр. Энергетиков <br> д.30 к.8</p>
+                </div>
+
+                <div class="footer-contacts--item">
+                    <p class="footer-contacts--description">Санкт-Петербург</p>
+                    <a href="tel:812 325-01-02" class="footer-contacts--title">812 325-01-02</a>
+                </div>
+
+                <div class="footer-contacts--item">
+                    <p class="footer-contacts--description">Москва</p>
+                    <a href="tel:495 609-03-32" class="footer-contacts--title">495 609-03-32</a>
+                </div>
+
+                <div class="footer-contacts--item">
+                    <p class="footer-contacts--description">Алматы</p>
+                    <a href="tel:+7 777 226-91-91" class="footer-contacts--title">+7 777 226-91-91</a>
+                </div>
+            </div>
+
+            <ul class="footer-menu">
+                <li class="footer-menu--item">
+                    <a href="#" class="footer-menu--link">Mega</a>
+                </li>
+
+                <li class="footer-menu--item">
+                    <a href="#" class="footer-menu--link">Mega Light</a>
+                </li>
+
+                <li class="footer-menu--item">
+                    <a href="#" class="footer-menu--link">Mega Keyboard</a>
+                </li>
+
+                <li class="footer-menu--item">
+                    <a href="#" class="footer-menu--link">Софт</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-info footer--container">
+            <p class="footer-info--description">
+                Разнообразный и богатый опыт говорит нам, что понимание сути ресурсосберегающих технологий не даёт нам иного выбора, кроме определения куки
+            </p>
+            
+            <p class="footer-info--trademark">
+                © 2022 Компания "Ритм"
+            </p>
+            
+            <button class="button button_white footer--cookie-btn">Хорошо</button>
+        </div>
+
+    </div>
+</footer>
+
 
 <script defer="defer" src="js/main.js"></script>
 </body>

@@ -944,7 +944,7 @@ header .header--mobile-menu-trigger > span {
 }
 
 .section_white {
-  background: #F5F5F5;
+  background: #eae8ec;
   color: #050F20;
 }
 
@@ -2730,6 +2730,12 @@ header .header--mobile-menu-trigger > span {
   color: #252525;
   padding: 0 25px;
   margin: 7rem auto 0;
+  background-color: transparent;
+}
+
+.about-company__button:hover {
+  background-color: #050F20;
+  color: #fff;
 }
 
 .about-company__pic-wrap {
@@ -4835,7 +4841,7 @@ html {
 body {
   font-size: 16px;
   color: #050F20;
-  background: #F3F3F5;
+  background: #eae8ec;
   position: relative;
 }
 
@@ -4965,10 +4971,6 @@ footer {
   margin: 0 auto;
 }
 
-.section-about-company .about-company--button {
-  margin: 25px auto 0;
-}
-
 .section-products .text-container {
   max-width: 1300px;
 }
@@ -4984,7 +4986,7 @@ footer {
 
 .section-products .catalog-item {
   padding: 30px 20px 35px;
-  background: #EEEEF1;
+  background-color: #fafafa;
   border-radius: 5px;
 }
 
@@ -5062,6 +5064,11 @@ footer {
 
 .section-products .catalog-item .catalog-item--button {
   margin-top: 30px;
+  background-color: #fafafa;
+}
+
+.section-products .catalog-item .catalog-item--button:hover {
+  background-color: #050f20;
 }
 
 .section-megapower .container {

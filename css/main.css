@@ -3906,7 +3906,7 @@ header .header--mobile-menu-trigger > span {
 }
 
 .mega-light {
-  height: 810vh;
+  height: 1695vh;
 }
 
 .mega-light .presentation__sticky {
@@ -3920,6 +3920,7 @@ header .header--mobile-menu-trigger > span {
 }
 
 .mega-light__background {
+  position: absolute;
   background-color: #050f20;
   width: 100%;
   height: 100%;
@@ -3999,6 +4000,14 @@ header .header--mobile-menu-trigger > span {
   -ms-transform: translate(25vw, 10vh) scale(1.3);
   transform: translate(25vw, 10vh) scale(1.3);
   opacity: 0;
+}
+
+.mega-light__image-2.animation_phase-5 {
+  -webkit-transform: translate(25vw, 10vh) scale(1.3);
+  -ms-transform: translate(25vw, 10vh) scale(1.3);
+  transform: translate(25vw, 10vh) scale(1.3);
+  opacity: 0;
+  z-index: -1;
 }
 
 .mega-light__image-2.animation_phase-5 {
@@ -4234,8 +4243,15 @@ header .header--mobile-menu-trigger > span {
   letter-spacing: 0em;
 }
 
+.light-and-keyboard__light,
+.light-and-keyboard__keyboard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .megapower {
-  height: 1350vh;
+  height: 1200vh;
   overflow-y: unset;
   padding: 0;
   color: white;
@@ -4708,9 +4724,10 @@ header .header--mobile-menu-trigger > span {
 }
 
 .mega-abilities {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 150px;
   width: 90%;
   max-width: 1800px;
   -webkit-box-pack: justify;
@@ -4718,18 +4735,22 @@ header .header--mobile-menu-trigger > span {
   justify-content: space-between;
 }
 
-.mega-abilities__item {
-  -ms-flex-preferred-size: 28%;
-  flex-basis: 28%;
-  text-align: center;
+.mega-abilities__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.mega-abilities__item {
+  /*flex-basis: 28%;
+  text-align: center;
+  display: flex;
   min-height: 250px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
+  //justify-content: space-between;
+  */
 }
 
 .mega-abilities__title {
@@ -4737,7 +4758,7 @@ header .header--mobile-menu-trigger > span {
   font-size: 3.2rem;
   line-height: 4rem;
   display: block;
-  min-height: 6.8rem;
+  text-align: left;
 }
 
 .mega-abilities__description {
@@ -4746,6 +4767,7 @@ header .header--mobile-menu-trigger > span {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.2rem;
+  text-align: left;
 }
 
 .mega-abilities__description-2 {
@@ -4753,6 +4775,7 @@ header .header--mobile-menu-trigger > span {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.2rem;
+  text-align: left;
 }
 
 .mega-extensions {
